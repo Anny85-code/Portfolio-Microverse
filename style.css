@@ -14,7 +14,7 @@
   font-style: normal;
   font-weight: bold;
   line-height: 20px;
-  align-items: center; 
+  align-items: center;
   color: #6070ff;
   text-decoration: none;
 }
@@ -29,14 +29,14 @@
 }
 
 a i {
-  color: #6070ff; 
+  color: #6070ff;
 }
- 
+
 .headline {
   height: 150px;
   left: 24px;
   padding-top: 28px;
-  font-family: 'poppins','Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-family: 'poppins', 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   font-style: normal;
   font-weight: bold;
   font-size: 30px;
@@ -50,7 +50,7 @@ a i {
   height: 146px;
   left: 24px;
   top: 276px;
-  font-family: 'poppins','Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-family: 'poppins', 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   font-style: normal;
   font-size: 12px;
   line-height: 24px;
@@ -62,7 +62,7 @@ a i {
 }
 
 #text {
-  font-family: 'poppins','Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-family: 'poppins', 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
@@ -91,5 +91,5 @@ a i {
 }
 
 img:hover {
-  background-color:#6070ff;
+  background-color: #6070ff;
 }
