@@ -5,24 +5,18 @@
   padding-right: 24px;
 }
 
-.menu-items {
-  display: none;
-}
-
 .my-logo {
-  position: static;
   width: 76px;
   height: 20px;
   left: 24px;
   top: 10px;
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-family: 'poppins';
   font-style: normal;
   font-weight: bold;
   line-height: 20px;
   align-items: center; 
   text-align: center;
   color: #6070ff;
-  
   text-decoration: none;
 }
 
@@ -39,11 +33,10 @@
 }
  
 .headline {
-  position: static;
   height: 150px;
   left: 24px;
   padding-top: 28px;
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-family: 'poppins';
   font-style: normal;
   font-weight: bold;
   font-size: 30px;
@@ -54,11 +47,10 @@
 }
 
 .primary-text {
-  position: static;
   height: 146px;
   left: 24px;
   top: 276px;
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-family: 'poppins';
   font-style: normal;
   font-size: 12px;
   line-height: 24px;
@@ -70,10 +62,7 @@
 }
 
 #text {
-  position: static;
-  width: 117px;
-  height: 24px;
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-family: 'poppins';
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
@@ -99,7 +88,6 @@
   height: 30px;
   width: 30px;
   margin: 10px;
-  color: #344563;
 }
 
 img:hover {
