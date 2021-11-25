@@ -22,6 +22,7 @@
 .main-section {
   background-image: url("./image/header-shapes\ mobile\ latest.png");
   background-repeat: no-repeat;
+  backgroung-size: 100%;
   display: flex;
   flex-direction: column;
   order: 2;
