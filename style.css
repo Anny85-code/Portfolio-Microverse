@@ -10,25 +10,24 @@
   height: 20px;
   left: 24px;
   top: 10px;
-  font-family: 'poppins';
+  font-family: 'poppins', 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   font-style: normal;
   font-weight: bold;
   line-height: 20px;
   align-items: center; 
-  text-align: center;
   color: #6070ff;
   text-decoration: none;
 }
 
 .main-section {
   background-image: url("./image/header-shapes\ mobile\ latest.png");
-  background-repeat:no-repeat;
+  background-repeat: no-repeat;
   display: flex;
   flex-direction: column;
   order: 2;
 }
 
-.fa-bars:before {
+a i {
   color: #6070ff; 
 }
  
@@ -36,7 +35,7 @@
   height: 150px;
   left: 24px;
   padding-top: 28px;
-  font-family: 'poppins';
+  font-family: 'poppins','Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   font-style: normal;
   font-weight: bold;
   font-size: 30px;
@@ -50,7 +49,7 @@
   height: 146px;
   left: 24px;
   top: 276px;
-  font-family: 'poppins';
+  font-family: 'poppins','Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   font-style: normal;
   font-size: 12px;
   line-height: 24px;
@@ -58,11 +57,11 @@
   flex: none;
   order: 1;
   flex-grow: 0;
-  margin: 12px 0px;
+  margin: 12px 1px;
 }
 
 #text {
-  font-family: 'poppins';
+  font-family: 'poppins','Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
@@ -81,7 +80,7 @@
   width: 170.17px;
   list-style-type: none;
   align-items: baseline;
-  padding-left: 0px;
+  padding-left: 1px;
 }
 
 .social-media-icons {
