@@ -35,7 +35,7 @@ a i {
   height: 150px;
   left: 24px;
   padding-top: 28px;
-  font-family: 'poppins','Franklin Gothic Medium','Arial Narrow', Arial, sans-serif;
+  font-family: 'poppins', 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   font-style: normal;
   font-weight: bold;
   font-size: 30px;
@@ -49,7 +49,7 @@ a i {
   height: 146px;
   left: 24px;
   top: 276px;
-  font-family: 'poppins','Franklin Gothic Medium','Arial Narrow', Arial, sans-serif;
+  font-family: 'poppins', 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   font-style: normal;
   font-size: 12px;
   line-height: 24px;
@@ -61,7 +61,7 @@ a i {
 }
 
 #text {
-  font-family: 'poppins','Franklin Gothic Medium','Arial Narrow', Arial, sans-serif;
+  font-family: 'poppins', 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
