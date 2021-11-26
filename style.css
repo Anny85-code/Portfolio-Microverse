@@ -32,8 +32,8 @@
   margin: 0;
 }
 
-body{
-  margin:0px;
+body {
+  margin: 0;
 }
 
 a i {
@@ -44,16 +44,17 @@ a i {
   padding-top: 28px;
   font-family: 'Poppins', sans-serif;
   font-style: normal;
-  font-weight: bold ;
+  font-weight: bold;
   font-size: 40px;
   line-height: 52px;
   display: flex;
   align-items: center;
   margin-top: 92px;
-  color: #172B4D;
+  color: #172b4d;
 }
-.headline-title{
-  margin:0;
+
+.headline-title {
+  margin: 0;
 }
 
 .primary-text {
