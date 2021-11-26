@@ -1,11 +1,8 @@
-# Portfolio-Microverse
+# My portfolio!
 
-# Project Name
-Portfolio website Project!
-
-This is my Second project in microverse
-this is the sample!
-![Alt text] (/C:\Users\U A E\Documents\Microverse\Module 1\Porfolio-Microverse\image\headline-mobile portfolio website.png?raw=true)
+This project is my portfolio website, and this is the mobile version. all templates are taken from figma.
+# Screenshot!
+![Screenshot (51)](https://user-images.githubusercontent.com/87186552/143557798-713005af-69b7-4ba1-8ef1-30a17e694136.png)
 
 # Built With
 Html
@@ -14,7 +11,7 @@ Css
 
 Additional description about the project and its features.
 
-The project is a mobile view of a portfolio website, other parts of the project is on the way.
+The project is a mobile view of a portfolio website, the remaing part of the project is in progress.
 
 👤 Author
 
@@ -22,7 +19,7 @@ GitHub: @Anny85-code
 
 Twitter: @Annyudo8
 
-LinkedIn: https://www.linkedin.com/in/aniekan-udo
+LinkedIn: LinkedIn
 
 🤝 Contributing
 Contributions, issues, and feature requests are welcome!
@@ -33,9 +30,10 @@ Show your support
 Give a ⭐️ if you like this project!
 
 Acknowledgments
-Hat tip to anyone whose contibuted to this project,
-Inspiration
-etc
+- To my coding partners
+- Microverse Team
+- Standup call team
+- Morning call Team
 
 
 
