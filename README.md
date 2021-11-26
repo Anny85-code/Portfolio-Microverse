@@ -6,7 +6,6 @@ This project is my portfolio website, and this is the mobile version. all templa
 
 # Built With
 Html
-
 Css
 
 
