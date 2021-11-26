@@ -5,8 +5,8 @@ This project is my portfolio website, and this is the mobile version. all templa
 ![Screenshot (51)](https://user-images.githubusercontent.com/87186552/143557798-713005af-69b7-4ba1-8ef1-30a17e694136.png)
 
 # Built With
-Html
-Css
+ - Html
+ - Css
 
 
 Additional description about the project and its features.
