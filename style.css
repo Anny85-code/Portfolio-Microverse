@@ -96,7 +96,7 @@ a i {
 .social-media-icons {
   height: 30px;
   width: 30px;
-  margin: 10px;
+  margin: 0 10px 10px 0;
 }
 
 img:hover {
