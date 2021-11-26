@@ -1,0 +1,19 @@
+{
+  "name": "porfolio-microverse",
+  "version": "1.0.0",
+  "description": "Portfolio website Project!",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Anny85-code/Porfolio-Microverse.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Anny85-code/Porfolio-Microverse/issues"
+  },
+  "homepage": "https://github.com/Anny85-code/Porfolio-Microverse#readme"
+}
