@@ -1,5 +1,5 @@
 .main-header-section {
-  background-color: #ffffff;
+  background-color: #fff;
   padding-bottom: 100px;
   border-bottom-left-radius: 60px 60px;
   margin: 0;
@@ -129,10 +129,11 @@ img:hover {
   background-color: #6070ff;
 }
 
-.work-section{
+.work-section {
   margin-top: 150px;
   margin-right: 12px;
 }
+
 .container {
   display: grid;
   grid-template-columns: auto;
@@ -148,8 +149,7 @@ img:hover {
   flex-direction: column;
   padding: 20px;
   margin-left: 20px;
-  /* margin: -6px -6px; */
-  border:  1px solid #e5e5e5;
+  border: 1px solid #e5e5e5;
   border-radius: 3%;
 }
 
@@ -158,7 +158,7 @@ img:hover {
   margin-top: -30px;
 }
 
-.item3{
+.item3 {
   display: flex;
   align-content: space-around;
   margin-left: 40px;
@@ -189,11 +189,6 @@ img:hover {
   flex-direction: column;
 }
 
-/* .outer {
-  display: flex;
-  flex-direction: column;
-} */
-
 .skills {
   display: flex;
   flex: 1 1 auto;
@@ -207,13 +202,14 @@ img:hover {
   align-content: flex-end;
 }
 
-.about-me-text{
+.about-me-text {
   font-size: 40px;
   line-height: 52px;
   font-style: normal;
   font-weight: bold;
   font-family: 'Poppins', sans-serif;
 }
+
 .language-framework {
   display: flex;
   flex: 1 1 auto;
@@ -260,6 +256,7 @@ img:hover {
   padding: 10px 10px;
   margin-bottom: 10px;
 }
+
 .outer p {
   font-weight: 500;
   font-size: 15px;
@@ -278,7 +275,6 @@ img:hover {
   flex-direction: column;
   padding: 20px 20px;
   padding-top: 100px;
-  /* margin: -6px -6px 0 20px; */
   border-top-right-radius: 60px 60px;
   width: 100%;
 }
@@ -352,4 +348,3 @@ img:hover {
   font-weight: bold;
   font-size: 32px;
 }
-
