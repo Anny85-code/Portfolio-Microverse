@@ -221,6 +221,7 @@ img:hover {
   justify-content: space-between;
   text-align: center;
   border-bottom: 1px solid #acd7c3;
+  padding-right: 10px;
 }
 
 .language-framework p {
@@ -228,10 +229,6 @@ img:hover {
   font-style: normal;
   font-weight: 500;
   font-size: 20px;
-}
-
-.language-framework {
-  padding-right: 10px;
 }
 
 .skills p {
