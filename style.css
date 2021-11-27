@@ -26,6 +26,10 @@
   text-decoration: none;
 }
 
+a {
+  text-decoration: none;
+}
+
 .main-section {
   background-image: url("./image/header-shapes\ mobile\ latest.png");
   background-repeat: no-repeat;
@@ -80,7 +84,7 @@ a i {
   margin: 12px 0;
 }
 
-#text {
+.text {
   font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 500;
@@ -91,7 +95,7 @@ a i {
 
 .connect {
   order: 2;
-  margin: 0;
+  margin-top: 100px;
 }
 
 ul {
@@ -100,7 +104,7 @@ ul {
   gap: 20px;
   padding: 0;
   margin: 0;
-  width: 300px;
+  width: 350px;
 }
 
 li a {
@@ -139,7 +143,6 @@ img:hover {
   grid-template-columns: auto;
   grid-gap: 100px;
   align-content: space-around;
-  margin: 100px 30px 150px 30px;
 }
 
 .property {
@@ -148,7 +151,6 @@ img:hover {
   height: 580px;
   flex-direction: column;
   padding: 20px;
-  margin-left: 20px;
   border: 1px solid #e5e5e5;
   border-radius: 3%;
 }
@@ -203,11 +205,14 @@ img:hover {
 }
 
 .about-me-text {
-  font-size: 40px;
-  line-height: 52px;
+  font-size: 16px;
+  line-height: 24px;
   font-style: normal;
   font-weight: bold;
+  font-weight: normal;
   font-family: 'Poppins', sans-serif;
+  color: #344563;
+  flex: none;
 }
 
 .language-framework {
@@ -223,6 +228,10 @@ img:hover {
   font-style: normal;
   font-weight: 500;
   font-size: 20px;
+}
+
+.language-framework {
+  padding-right: 10px;
 }
 
 .skills p {
@@ -274,9 +283,10 @@ img:hover {
   display: flex;
   flex-direction: column;
   padding: 20px 20px;
-  padding-top: 100px;
+  padding-top: 20px;
   border-top-right-radius: 60px 60px;
   width: 100%;
+  margin-top: 100px;
 }
 
 .contact-icon-section {
