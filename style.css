@@ -189,10 +189,10 @@ img:hover {
   flex-direction: column;
 }
 
-.outer {
+/* .outer {
   display: flex;
   flex-direction: column;
-}
+} */
 
 .skills {
   display: flex;
