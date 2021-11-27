@@ -1,9 +1,9 @@
 # My portfolio!
+Mobile version
 
-This project is my portfolio website, and this is the mobile version. all templates are taken from figma.
-# Screenshot!
-![Screenshot (51)](https://user-images.githubusercontent.com/87186552/143557798-713005af-69b7-4ba1-8ef1-30a17e694136.png)
+This project is a portfolio website, and this is the mobile version. all templates are taken from figma.
 
+![screencapture-127-0-0-1-5500-index-html-2021-11-27-13_12_01](https://user-images.githubusercontent.com/87186552/143681558-028d0a51-8634-44fb-90b3-cb6d4930242d.png)
 # Built With
  - Html
  - Css
@@ -11,7 +11,7 @@ This project is my portfolio website, and this is the mobile version. all templa
 
 Additional description about the project and its features.
 
-The project is a mobile view of a portfolio website, the remaing part of the project is in progress.
+The project is a mobile view of a portfolio website, the remaining part of the project is in progress.
 
 👤 Author
 
