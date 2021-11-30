@@ -364,3 +364,34 @@ img:hover {
 button:hover {
   background-color: #6070ff;
 }
+
+.form {
+  padding: 103px 24px 45px 24px;
+  text-align: center;
+  color: #fff;
+  /* width: 375px; */
+  height: 729px;
+  background: #6070ff;
+  border-top-left-radius: 60px 60px;
+  background-image: url("/image/contact\ form\ shapes-mobile.png");
+  background-repeat: no-repeat;
+  background-position: 100% 20%;
+}
+
+.form h1 {
+  font-family: Poppins, sans-serif;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 52px;
+  text-align: center;
+}
+
+.form p {
+  font-family: Poppins, sans-serif;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28px;
+  text-align: center;
+}
