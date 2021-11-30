@@ -157,7 +157,7 @@ img:hover {
 }
 
 .item2 {
-  display: flex;
+  /* float: right; */
   margin-top: -30px;
 }
 
