@@ -42,7 +42,6 @@ body {
   background-color: #e5e5e5;
   font-family: 'Poppins', sans-serif;
   width: 375px;
-  background-color: #e5e5e5;
 }
 
 .headline {
@@ -309,7 +308,7 @@ img:hover {
   margin-bottom: 20px;
   cursor: pointer;
 }
-  
+
 .item6 {
   border-radius: 8px;
   border: 1px solid #3d4ee4;
@@ -457,6 +456,7 @@ button:hover {
 .form-btn:hover {
   background-color: #6070ff;
 }
+
 .form-btn:active {
   background-color: #1320cc;
 }
