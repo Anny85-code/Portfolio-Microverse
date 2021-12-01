@@ -1,9 +1,9 @@
 # My portfolio!
 Mobile version
 
-This project is a portfolio website, and this is the mobile version. all templates are taken from figma.
+This project is a portfolio website, this section is the contact form section. all templates are taken from figma.
 
-![screenshot-form](https://user-images.githubusercontent.com/87186552/144135962-2cc5fd2f-3d20-460c-87cd-5ecc68da9521.png)
+![screenshot-form new](https://user-images.githubusercontent.com/87186552/144186001-c77877b4-b99c-4ea2-b84a-33e5ebcccd59.png)
 # Built With
  - Html
  - Css
