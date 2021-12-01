@@ -2,7 +2,7 @@
   display: flex;
   justify-content: space-between;
   padding-top: 58px;
-  margin-right: 12px; 
+  margin-right: 12px;
   margin-top: -120px;
   margin-bottom: -50px;
 }
@@ -308,7 +308,7 @@ img:hover {
   margin-bottom: 20px;
   cursor: pointer;
 }
-  
+ 
 .item6 {
   border-radius: 8px;
   border: 1px solid #3d4ee4;
