@@ -2,7 +2,7 @@
   display: flex;
   justify-content: space-between;
   padding-top: 58px;
-  margin-right: 12px;  
+  margin-right: 12px; 
   margin-top: -120px;
   margin-bottom: -50px;
 }
@@ -42,7 +42,6 @@ body {
   background-color: #e5e5e5;
   font-family: 'Poppins', sans-serif;
   width: 375px;
-  background-color: #e5e5e5;
 }
 
 .headline {
@@ -457,6 +456,7 @@ button:hover {
 .form-btn:hover {
   background-color: #6070ff;
 }
+
 .form-btn:active {
   background-color: #1320cc;
 }
