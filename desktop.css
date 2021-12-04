@@ -191,6 +191,10 @@ img:hover {
   margin: 12px;
 }
 
+.desktop-image:hover {
+  transform: scale(0.9);
+}
+
 .thumps-up {
   float: right;
   margin-right: 60px;
