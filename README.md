@@ -1,14 +1,14 @@
 # My portfolio!
-Mobile version
+Desktop version
 
-This project is a portfolio website, this section is the contact form section. all templates are taken from figma.
+This project is a portfolio website, the desktop version. all templates are taken from figma.
 
-![screenshot-form new](https://user-images.githubusercontent.com/87186552/144186001-c77877b4-b99c-4ea2-b84a-33e5ebcccd59.png)
+![screencapture-127-0-0-1-5500-index-html-2021-12-03-23_53_50](https://user-images.githubusercontent.com/87186552/144683443-5d7bca1d-550b-4200-8092-b51090f7f7fb.png)
 # Built With
  - Html
  - Css
 
-The project is a mobile view of a portfolio website, the remaining part of the project is in progress.
+The project is a Desktop version of a portfolio website.
 
 👤 Author
 
