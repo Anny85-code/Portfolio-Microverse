@@ -6,50 +6,66 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="https://fonts.gstatic.com/s/poppins/v15/pxiByp8kv8JHgFVrLBT5Z11lFd2JQEl8qw.woff2.css">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="desktop.css" media="screen and (min-width: 992px)">
+    <link rel="stylesheet" href="mobile.css" media="screen and (max-width: 992px)">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
-    <title>Portfolio-website</title>
+    <title>Anny website</title>
 </head>
 <body>
-    <section>
+
+    <section id="main-sect">
     
-    <section class="main-header-section">
+    
        
             <header class="header">
-                <a href="" class="my-logo">My Logo</a>
-                <a href="#" class="my-log"><img src="image/Union.png" alt="menu-bar"></a>
-               
+               <ul class="nav-bar">
+                  <li class="mobile-nav1"><a href="" class="my-logo">My Logo</a></li>
+                  <li class="mobile-nav"><nav class="menu-bar">
+                        <a href="#" ><img src="image/Union.png" alt="menu-bar"></a>
+                      </nav></li>
+                  <li class="desktop-nav"><nav>
+                  <ul class="desktop-nav">
+                  
+                        <li><a href="#">Portfolio</a></li>
+                        <li><a href="#">About</a></li>
+                        <li><a href="#">Contact</a></li>
+                    </ul>
+                    </nav>
+                   </li>
+                </ul>
             </header>
-
-        
-        <div class="headline">
-            <h3 class="headline-title">I'm Aniekan <br> Glad to see <br> you!</h3>
-        </div>
-        <div class="primary-text">
+            <div class="main-header-section">
            
-            <p>I’m a software developer! I can help you build a product , feature or website Look through some of my work and experience! If you like what you see and have a project you need coded, don’t hestiate to contact me.</p>
-        </div>
-        
-        <div class="connect">
-            <h2 class="text">LET'S CONNECT</h2>
-            <ul class="media-icon-section">
-                <li class="social-media-icons"><a href="https://twitter.com/Annyudo8?t=A1Z136xbWYhjxOvAnkA1Qw&s=09"><img src="image/social-media-icons/twitter.png" alt="twitter-logo"></a></li>
-                <li class="social-media-icons"><a href="https://www.linkedin.com/in/aniekan-udo-665b65213/"><img src="image/social-media-icons/Linkedin.png" alt="linkedin-logo"></a></li>
-                <li class="social-media-icons"><a href="#"><img src="image/social-media-icons/m.png" alt="M-logo"></a></li>
-                <li class="social-media-icons"><a href="https://github.com/Anny85-code"><img src="image/social-media-icons/github.png" alt="github-logo"></a></li>
-                <li class="social-media-icons"><a href="#"><img src="image/social-media-icons/ok.png" alt="Ok-logo"></a></li>
-            </ul>
-            </div>
-    </section>
+                <div class="headline">
+                    <h3 class="headline-title">I'm Aniekan <br> Glad to see <br> you!</h3>
+                </div>
+                <div class="primary-text">
+                   
+                    <p>I’m a software developer! I can help you build a product , feature or website Look through some of my work and experience! If you like what you see and have a project you need coded, don’t hestiate to contact me.</p>
+                </div>
+                
+                <div class="connect">
+                    <h2 class="text">LET'S CONNECT</h2>
+                    <ul class="media-icon-section">
+                        <li class="social-media-icons"><a href="https://twitter.com/Annyudo8?t=A1Z136xbWYhjxOvAnkA1Qw&s=09"><img src="image/social-media-icons/twitter.png" alt="twitter-logo"></a></li>
+                        <li class="social-media-icons"><a href="https://www.linkedin.com/in/aniekan-udo-665b65213/"><img src="image/social-media-icons/Linkedin.png" alt="linkedin-logo"></a></li>
+                        <li class="social-media-icons"><a href="#"><img src="image/social-media-icons/m.png" alt="M-logo"></a></li>
+                        <li class="social-media-icons"><a href="https://github.com/Anny85-code"><img src="image/social-media-icons/github.png" alt="github-logo"></a></li>
+                        <li class="social-media-icons"><a href="#"><img src="image/social-media-icons/ok.png" alt="Ok-logo"></a></li>
+                    </ul>
+                    </div>
+                </div>
+           
         
 </section>
  <section class="work-section">
             <div class="container">
                 <div class="property">
                     <div class="item1"><img src="image/snapshoot-Portfolio.png" alt="Tonic"></div>
-                    <div class="item2"><h2>Tonic</h2></div>
+                    <div class="desktop-image start"><img src="image/desktop-image/snapshoot-portfolio-1.png" alt="Tonic"></div>
+                    <div class="test end"><div class="item2"><h2>Tonic</h2></div>
                     <div class="item3">
                         <ul>
                             <li><a href="#" class="canopy">Canopy</a></li>
@@ -67,11 +83,12 @@
                                 <li class="skill"><a href="#">javaScript</a></li>
                             </ul>
                         </div>
-                        <div class="item6"><a href="#">See Project</a></div>
+                        <div class="item6"><a href="#">See Project</a></div></div>
                 </div>
                 <div class="property">
                     <div class="item1"><img src="image/snapshoot-Portfolio2.png" alt="Tonic"></div>
-                    <div class="item2"><h2>Tonic</h2></div>
+                    <div class="desktop-image end"><img src="image/desktop-image/snapshoot-portfolio-2.png" alt="Tonic"></div>
+                    <div class="test start mobile-facebook"><div class="item2"><h2>Tonic</h2></div>
                     <div class="item3">
                         <ul>
                             <li><a href="#" class="canopy">Canopy</a></li>
@@ -89,11 +106,41 @@
                                 <li class="skill"><a href="#">javaScript</a></li>
                             </ul>
                         </div>
+
+                        
                         <div class="item6"><a href="#">See Project</a></div>
+                </div>
+
+                <div class="test start desktop-facebook"><div class="item2"><h2>Multi-Post Stories</h2></div>
+                    <div class="item3">
+                        <ul>
+                            <li><a href="#" class="canopy">Facebook</a></li>
+                            <li><a href="#"><img src="image/counter.png" alt="dot"></a></li>
+                            <li><a href="#">Back End Dev</a></li>
+                            <li><a href="#"><img src="image/counter.png" alt="dot"></a></li>
+                            <li><a href="#">2015</a></li>
+                        </ul>
+                    </div>
+                        <div class="item4"><p>Experimental content creation feature that allows users to add to an existing story over the course of a day without spamming their friends.</p></div>
+                        <div class="item5">
+                            <ul class="inner-item">
+                                <li class="skill"><a href="#">html</a></li>
+                                <li class="skill"><a href="#">Ruby on rails</a></li>
+                                <li class="skill"><a href="#">css</a></li>
+                                <li class="skill"><a href="#">javaScript</a></li>
+                            </ul>
+                        </div>
+
+                        
+                        <div class="item6"><a href="#">See Project</a></div>
+                </div>
+
+
                 </div>
                 <div class="property">
                     <div class="item1"><img src="image/snapshoot-Portfolio3.png" alt="Tonic"></div>
-                    <div class="item2"><h2>Tonic</h2></div>
+                    <div class="desktop-image"><img src="image/desktop-image/snapshoot-portfolio3.png" alt=""></div>
+                    <div class="test start mobile-facebook"><div class="item2"><h2>Tonic</h2></div>
                     <div class="item3">
                         <ul>
                             <li><a href="#" class="canopy">Canopy</a></li>
@@ -113,9 +160,34 @@
                         </div>
                         <div class="item6"><a href="#">See Project</a></div>
                 </div>
+
+                <div class="test start desktop-facebook"><div class="item2"><h2>Facebook 360</h2></div>
+                <div class="item3">
+                    <ul>
+                        <li><a href="#" class="canopy">Facebook</a></li>
+                        <li><a href="#"><img src="image/counter.png" alt="dot"></a></li>
+                        <li><a href="#">Back End Dev</a></li>
+                        <li><a href="#"><img src="image/counter.png" alt="dot"></a></li>
+                        <li><a href="#">2015</a></li>
+                    </ul>
+                </div>
+                    <div class="item4"><p>Exploring the future of media in Facebook's first Virtual Reality app; a place to discover and enjoy 360 photos and videos on Gear VR.</p></div>
+                    <div class="item5">
+                        <ul class="inner-item">
+                            <li class="skill"><a href="#">html</a></li>
+                            <li class="skill"><a href="#">Ruby on rails</a></li>
+                            <li class="skill"><a href="#">css</a></li>
+                            <li class="skill"><a href="#">javaScript</a></li>
+                        </ul>
+                    </div>
+                    <div class="item6"><a href="#">See Project</a></div>
+                    <div class="thumps-up"><img src="image/desktop-image/hand-cursor-1.png" alt=""></div>
+            </div>
+                </div>
                 <div class="property">
-                    <div class="item1"><img src="/image/napshoot-Portfolio4.png" alt="Tonic"></div>
-                    <div class="item2"><h2>Tonic</h2></div>
+                    <div class="item1"><img src="image/napshoot-Portfolio4.png" alt="Tonic"></div>
+                    <div class="desktop-image end"><img src="image/desktop-image/snapshoot-portfolio4.png" alt=""></div>
+                    <div class="test mobile-facebook start"><div class="item2"><h2>Tonic</h2></div>
                     <div class="item3">
                         <ul>
                             <li><a href="#" class="canopy">Canopy</a></li>
@@ -134,9 +206,35 @@
                             </ul>
                         </div>
                         <div class="item6"><a href="#">See Project</a></div>
+                        </div>
+
+                        <div class="test start desktop-facebook"><div class="item2"><h2>Uber Navigation</h2></div>
+                        <div class="item3">
+                            <ul>
+                                <li><a href="#" class="canopy">Uber</a></li>
+                                <li><a href="#"><img src="image/counter.png" alt="dot"></a></li>
+                                <li><a href="#">Lead Development</a></li>
+                                <li><a href="#"><img src="image/counter.png" alt="dot"></a></li>
+                                <li><a href="#">2018</a></li>
+                            </ul>
+                        </div>
+                            <div class="item4"><p>A smart assistant to make driving more safe, efficient, and fun by unlocking your most expensive computer: your car.</p></div>
+                            <div class="item5">
+                                <ul class="inner-item">
+                                    <li class="skill"><a href="#">html</a></li>
+                                    <li class="skill"><a href="#">Ruby on rails</a></li>
+                                    <li class="skill"><a href="#">css</a></li>
+                                    <li class="skill"><a href="#">javaScript</a></li>
+                                </ul>
+                            </div>
+                            <div class="item6"><a href="#">See Project</a></div>
+                           
+                    </div>
                 </div>
             </div>
             <section class="about-me">
+                <div class="desktop-about-me-wrapper">
+                <div class="about-me-desktop">
                 <h2 class="headline">About <br> Myself</h2>
                
                 <p class="about-me-text">I’m a software developer! I can help you build a product , feature or website Look through some of my work and experience! If you like what you see and have a project you need coded, don’t hestiate to contact me.</p>
@@ -150,11 +248,14 @@
                     <li class="social-media-icons"><a href="#"><img src="image/social-media-icons/m.png" alt="M-logo"></a></li>
                 </ul>
                 <button type="button">Get my resume</button>   
-                <section class="area-of-expertise">
+                </div>
+                <div class="area-of-expertise-desktop">
+                <div class="area-of-expertise">
                     <ul class="language">
                         <li><p>Languages</p></li>
                         <li><i class="fa fa-chevron-down" aria-hidden="true"></i></li>
                     </ul>
+                    <div class="outer-desktop">
                         <ul class="outer">
                             <li class="programming"><img src="image/ellipse1.png" alt="JavaScript"></li>
                             <li><p>JavaScript</p></li>
@@ -167,7 +268,7 @@
                             <li class="programming"><img src="image/ellipse3.png" alt="CSS"></li>
                             <li><p>CSS</p></li>
                         </ul>
-                    
+                    </div>
                     <ul class="language-framework">
                         <li class="new-items"><p>Frameworks</p></li>
                         <li><i class="fa fa-chevron-right" aria-hidden="true"></i></li>
@@ -176,13 +277,14 @@
                         <li class="new-items"><p>Skills</p></li>
                         <li><i class="fa fa-chevron-right" aria-hidden="true"></i></li>
                     </ul>
-
-                </section>
+                </div>
+            </div>
+            </div>
             
                     <section class="form">
                         <h1>Contact me</h1>
-                        <p>If you have an application you <br> are interested in developing, a <br> feature 
-                            that you need built or a <br> project that needs coding. I’d <br> love to help with it </p>
+                        <p>If you have an application you are interested in <br> developing, a feature 
+                            that you need built or a project <br> that needs coding. I’d love to help with it </p>
                         <form action="https://formspree.io/f/xwkyerjl
                         " method="post" class="contact-me">
                        
@@ -195,9 +297,10 @@
                     
                     </form>
                 </section>
-
+               
             </section>
         </section>
+
         
 </body>
 
