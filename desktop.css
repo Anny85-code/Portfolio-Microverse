@@ -186,6 +186,10 @@ img:hover {
   border-radius: 24px;
 }
 
+.desktop-image:hover {
+  transform: scale(0.9);
+}
+
 .desktop-image {
   border-radius: 8px;
   margin: 12px;
