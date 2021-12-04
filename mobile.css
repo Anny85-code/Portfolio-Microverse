@@ -154,6 +154,7 @@ img:hover {
   align-content: space-around;
   margin-left: 24px;
   margin-right: 24px;
+  justify-content: center;
 }
 
 .property {
