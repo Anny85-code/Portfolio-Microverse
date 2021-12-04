@@ -394,7 +394,7 @@ button:hover {
   height: 729px;
   background: #6070ff;
   border-top-left-radius: 60px 60px;
-  background-image: url("/image/contact-form-shapes-mobile.png");
+  background-image: url("image/contact\-form\-shapes-mobile.png");
   background-repeat: no-repeat;
   background-position: 100% 20%;
   margin-top: 100px;
