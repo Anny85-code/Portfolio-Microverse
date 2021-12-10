@@ -159,7 +159,8 @@ ul {
 }
 
 img:hover {
-  background-color: #6070ff;
+  cursor: pointer;
+  transform: scale(1.2);
 }
 
 .work-section {

@@ -139,7 +139,8 @@ li a {
 }
 
 img:hover {
-  background-color: #6070ff;
+  cursor: pointer;
+  transform: scale(1.2);
 }
 
 .work-section {
@@ -174,6 +175,10 @@ img:hover {
 
 .desktop-facebook {
   display: none;
+}
+
+.item1 {
+  transform: scale(0.9);
 }
 
 .item2 {
