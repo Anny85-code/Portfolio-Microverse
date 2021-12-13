@@ -9,37 +9,50 @@
 
 .nav-menu {
   position: fixed;
-  background-color: #396df2;
+  top: 0px;
+  background: #6070ff;
   width: 375px;
-  height: 500px ;
+  height: 812px;
   padding-left: 30px;
   font-size: 16px;
-  font-family: 'Poppins', sans-serif;
+  backdrop-filter: blur(6px);
+  mix-blend-mode: multiply;
+  font-family: "Poppins", sans-serif;
   font-weight: bold;
   visibility: hidden;
 }
 
 .aside-close {
- float: right;
- font-size: 20px;
- font-weight: bold;
- font-family: 'Poppins', sans-serif;
- color: #fff;
- background-color: #396df2;
- padding-right: 50px;
- margin-right: 30px;
- border: none;
+  width: 12px;
+  height: 12px;
+  float: right;
+  font-size: 20px;
+  font-weight: bold;
+  font-family: "Poppins", sans-serif;
+  color: #fff;
+  background: #6070ff;
+  padding-right: 70px;
+  margin-right: 30px;
+  padding-top: 50px;
+  border: 2px solid #67798e;
 }
 
 .nav-menu ul {
   display: flex;
   flex-direction: column;
-  margin-left: 20px;
+  margin-left: 28px;
   margin-top: 30px;
+  padding-top: 60px;
+  line-height: 44px;
 }
 
 .nav-menu li a {
- color: #fff;
+  color: #fff;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 44px;
+  display: flex;
+  align-items: center;
 }
 
 ul {
@@ -70,7 +83,7 @@ ul {
 .my-logo {
   width: 76px;
   height: 20px;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   font-style: normal;
   font-weight: bold;
   line-height: 20px;
@@ -99,11 +112,11 @@ ul {
 body {
   margin: 0;
   background-color: #e5e5e5;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
 }
 
 .headline {
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   font-style: normal;
   font-weight: bold;
   font-size: 40px;
@@ -126,7 +139,7 @@ a {
 
 .primary-text {
   height: 146px;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   font-style: normal;
   font-size: 16px;
   font-weight: normal;
@@ -138,7 +151,7 @@ a {
 }
 
 .text {
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
@@ -270,7 +283,7 @@ img:hover {
   font-style: normal;
   font-weight: bold;
   font-weight: normal;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   color: #344563;
   flex: none;
 }
