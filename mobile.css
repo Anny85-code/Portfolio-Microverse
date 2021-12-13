@@ -7,6 +7,41 @@
   display: none;
 }
 
+.nav-menu {
+  position: fixed;
+  background-color: #396df2;
+  width: 375px;
+  height: 500px ;
+  padding-left: 30px;
+  font-size: 16px;
+  font-family: 'Poppins', sans-serif;
+  font-weight: bold;
+  visibility: hidden;
+}
+
+.aside-close {
+ float: right;
+ font-size: 20px;
+ font-weight: bold;
+ font-family: 'Poppins', sans-serif;
+ color: #fff;
+ background-color: #396df2;
+ padding-right: 50px;
+ margin-right: 30px;
+ border: none;
+}
+
+.nav-menu ul {
+  display: flex;
+  flex-direction: column;
+  margin-left: 20px;
+  margin-top: 30px;
+}
+
+.nav-menu li a {
+ color: #fff;
+}
+
 ul {
   list-style-type: none;
   display: flex;
