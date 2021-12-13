@@ -1,14 +1,15 @@
 # My portfolio!
-Desktop version
+Mobile Menu Toggle
 
-This project is a portfolio website, the desktop version. all templates are taken from figma.
+This project is the mobile menu feature of the project. all templates are taken from figma.
 
-![screencapture-127-0-0-1-5500-index-html-2021-12-03-23_53_50](https://user-images.githubusercontent.com/87186552/144683443-5d7bca1d-550b-4200-8092-b51090f7f7fb.png)
+![menu-toggle](https://user-images.githubusercontent.com/87186552/145860424-26480cdf-acca-4dc4-bb1c-dff9574114b7.png)
 # Built With
  - Html
  - Css
+ - JavaScript
 
-The project is a Desktop version of a portfolio website.
+The project is the Mobile menu togglr feature.
 # You can check it out at https://anny85-code.github.io/Portfolio-Microverse/
 
 👤 Author
