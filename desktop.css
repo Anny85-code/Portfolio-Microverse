@@ -40,6 +40,10 @@ li a {
   width: 100%;
 }
 
+.nav-menu {
+  display: none;
+}
+
 .header {
   display: flex;
   padding-top: 15px;
