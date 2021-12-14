@@ -75,7 +75,7 @@ li a {
 }
 
 .main-header-section {
-  background-image: url("/asset/image/desktop-image/Header-bg@desktop.png");
+  background-image: url("../asset/image/desktop-image/Header-bg@desktop.png");
   background-repeat: no-repeat;
   background-size: contain;
   padding-right: 260px;
