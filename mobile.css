@@ -81,6 +81,7 @@ ul {
   display: flex;
   justify-content: space-between;
   padding-left: 24px;
+  position: fixed;
 }
 
 .my-logo {
