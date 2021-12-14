@@ -98,7 +98,7 @@ ul {
 }
 
 .main-header-section {
-  background-image: url("image/header-shapes\-mobile-figma.png");
+  background-image: url("/asset/image/header-shapes-mobile-figma.png");
   background-repeat: no-repeat;
   background-size: 100%;
   display: flex;
