@@ -203,7 +203,7 @@ li a {
 
 .container {
   display: grid;
-  grid-template-columns: auto;
+  grid-template-columns: 1fr;
   grid-gap: 100px;
   align-content: space-around;
   margin-left: 24px;
