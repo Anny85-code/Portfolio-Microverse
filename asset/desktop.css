@@ -38,6 +38,9 @@ li a {
   display: flex;
   justify-content: space-between;
   width: 100%;
+  position: fixed;
+  height: 40px;
+  background-color: #fff;
 }
 
 .nav-menu {
@@ -52,7 +55,6 @@ li a {
   background-color: #fff;
   height: 40px;
   margin-bottom: 100px;
-  position: fixed;
 }
 
 #main-sect {
@@ -162,7 +164,12 @@ ul {
   margin: 0 10px 10px 0;
 }
 
-img:hover {
+.portfolio-image:hover {
+  cursor: pointer;
+  transform: scale(1.2);
+}
+
+.portfolio-image-desktop:hover {
   cursor: pointer;
   transform: scale(1.2);
 }
@@ -357,7 +364,6 @@ img:hover {
   padding: 20px 30px;
   padding-top: 20px;
   border-top-right-radius: 60px 60px;
-  width: 100%;
   margin-top: 100px;
   height: 850px;
 }
@@ -365,6 +371,7 @@ img:hover {
 .desktop-about-me-wrapper {
   display: grid;
   grid-template-columns: 1fr 1fr;
+  width: 100%;
 }
 
 .about-me-desktop {

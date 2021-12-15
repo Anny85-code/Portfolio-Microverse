@@ -82,6 +82,7 @@ ul {
   justify-content: space-between;
   padding-left: 24px;
   position: fixed;
+  top: 30px;
 }
 
 .my-logo {
@@ -190,7 +191,7 @@ li a {
   margin: 0 10px 10px 0;
 }
 
-img:hover {
+.portfolio-image:hover {
   cursor: pointer;
   transform: scale(1.2);
 }
