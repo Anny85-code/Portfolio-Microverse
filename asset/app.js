@@ -115,7 +115,7 @@ for (let i = 0; i < works.length; i += 1) {
   }
 
   // further loop within the parent loop to break and read technologies
-  const techData = technologies(false, projects[i].technologies);
+  const techData = technologies(false, works[i].technologies);
 
   projectsItemsBuild += `<div class="property">
                           <div class="item1 desktop-image ${flexPosition}">
