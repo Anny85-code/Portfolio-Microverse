@@ -705,11 +705,16 @@ button:hover {
 
 .pop-item6:hover {
   background-color: #6070ff;
+  color: #fff;
 }
 
 .pop-btn {
   color: #6070ff;
   font-size: 15px;
+}
+
+.pop-btn:hover {
+  color: #fff;
 }
 
 .pop-skill-button{
