@@ -38,6 +38,9 @@ li a {
   display: flex;
   justify-content: space-between;
   width: 100%;
+  position: fixed;
+  height: 40px;
+  background-color: #fff;
 }
 
 .nav-menu {
@@ -52,7 +55,6 @@ li a {
   background-color: #fff;
   height: 40px;
   margin-bottom: 100px;
-  position: fixed;
 }
 
 #main-sect {
@@ -162,7 +164,12 @@ ul {
   margin: 0 10px 10px 0;
 }
 
-img:hover {
+.portfolio-image:hover {
+  cursor: pointer;
+  transform: scale(1.2);
+}
+
+.portfolio-image-desktop:hover {
   cursor: pointer;
   transform: scale(1.2);
 }
@@ -237,6 +244,10 @@ img:hover {
   margin-left: 40px;
 }
 
+.item4 {
+  margin-bottom: 20px;
+}
+
 .item5 {
   display: flex;
   margin-left: 50px;
@@ -247,7 +258,7 @@ img:hover {
   column-gap: 60px;
 }
 
-.skill a {
+.inner-skill {
   font-size: 12px;
   font-weight: 500;
   color: #6070ff;
@@ -357,7 +368,6 @@ img:hover {
   padding: 20px 30px;
   padding-top: 20px;
   border-top-right-radius: 60px 60px;
-  width: 100%;
   margin-top: 100px;
   height: 850px;
 }
@@ -365,6 +375,7 @@ img:hover {
 .desktop-about-me-wrapper {
   display: grid;
   grid-template-columns: 1fr 1fr;
+  width: 100%;
 }
 
 .about-me-desktop {
@@ -470,7 +481,7 @@ button:hover {
   height: 729px;
   background: #6070ff;
   border-top-left-radius: 60px 60px;
-  background-image: url("image/desktop-image/contact\-form\-background\-shapes@2x.png");
+  background-image: url("/asset/image/desktop-image/contact-form-background-shapes@2x.png");
   background-repeat: no-repeat;
   background-size: contain;
   margin-top: 350px;
@@ -559,4 +570,177 @@ button:hover {
 
 .form-btn:active {
   background-color: #1320cc;
+}
+
+/* modal */
+
+.pop-menu-wrapper {
+  display: none;
+  margin-right: 24px;
+  justify-content: center;
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgba(76, 78, 82);
+  background-color: rgb(76, 78, 82, 0.2);
+}
+
+.pop-menu {
+  background-color: #fefefe;
+  margin: 15% auto;
+  padding: 20px;
+  border-style: solid;
+  border-color: rgb(219, 214, 214);
+  border-width: 1px;
+  border-radius: 15px;
+  width: 80%;
+}
+
+.pop-skill1 {
+  color: #172b4d;
+  font-weight: bold;
+  font-size: 32px;
+  margin-bottom: 20px;
+}
+
+.pop-skill2 {
+  display: flex;
+  align-content: space-around;
+  margin-left: 40px;
+  margin-bottom: 20px;
+}
+
+.pop-skill2 a {
+  font-size: 18px;
+  font-weight: 600;
+  align-content: space-around;
+  color: #7a869a;
+  align-items: center;
+}
+
+.list-main {
+  font-size: 13px;
+  font-weight: 600;
+  display: flex;
+  align-content: space-around;
+  color: #7a869a;
+}
+
+.titles-item {
+  font-size: 13px;
+  font-weight: 600;
+  display: flex;
+  align-content: space-around;
+  color: #7a869a;
+}
+.pop-end {
+    display: flex;
+}
+
+.newTest {
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+    overflow: hidden;
+}
+
+.newTest ul {
+  margin-bottom: 20px;
+}
+
+.pop-inner-item {
+  column-gap: 40px;
+  flex-wrap: wrap;
+}
+
+.pop-skill-child a {
+  font-size: 12px;
+  font-weight: 500;
+  color: #6070ff;
+  border-radius: 8px;
+  text-align: center;
+  background: #ebebff;
+  padding: 5px 10px;
+  margin-right: 10px;
+}
+
+.pop-skill {
+    margin-left: 40px;
+    margin-top: 20px;
+}
+
+.pop-inner-item > li {
+  order: 3;
+}
+
+.break {
+  flex-basis: 100%;
+  height: 0;
+}
+
+.pop-item4 p {
+  width: 600px;
+}
+
+.pop-item6 {
+  border-radius: 8px;
+  border: 1px solid #3d4ee4;
+  width: 200px;
+  height: 20px;
+  text-align: center;
+  padding: 10px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  letter-spacing: 0.03em;
+  color: #396df2;
+  background-color: white;
+  margin-top: 20px;
+  margin-right: 10px;
+}
+
+.pop-item6:hover {
+  background-color: #6070ff;
+}
+
+.pop-btn {
+  color: #6070ff;
+  font-size: 15px;
+}
+
+.pop-skill-button{
+    display: flex;
+    flex-direction: row;
+}
+
+.pop-desktop-image {
+    width: 100%;
+}
+
+.close-popup {
+  height: 12px;
+  font-size: 20px;
+  float: right;
+  color: #000;
+  font-family: "Poppins", sans-serif;
+  font-weight: bold;
+  display: flex;
+  justify-content:end;
+  border: none;
+  font-weight: bold;
+  background-color: #fff;
+}
+
+.pop-skill-image {
+  display: none;
+}
+
+.pop-menu button {
+  background-color: #fff;
+  cursor: pointer;
+  transform: scale(1.2);
 }
