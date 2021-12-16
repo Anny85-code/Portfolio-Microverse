@@ -551,28 +551,28 @@ button:hover {
 /* modal */
 
 .pop-menu-wrapper {
-  grid-template-columns: auto;
-  grid-gap: 100px;
-  align-content: space-around;
+  display: none;
   margin-right: 24px;
   justify-content: center;
-  height: 100%;
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
   width: 100%;
-  background-color: #7a869a;
-  box-sizing: border-box;
-  padding-top: 80px;
-  padding-bottom: 100px;
-  padding-left: 30px;
-  }
+  height: 100%;
+  overflow: auto;
+  background-color: rgba(76, 78, 82);
+  background-color: rgb(76, 78, 82, 0.2);
+}
 
 .pop-menu {
-  background-color: #fff;
-  display: flex;
-  flex-direction: column;
+  background-color: #fefefe;
+  margin: 15% auto;
   padding: 20px;
-  border: 1px solid #e5e5e5;
-  border-radius: 8px;
-  height: 100%;
+  border-style: solid;
+  border-color: rgb(219, 214, 214);
+  border-width: 1px;
+  border-radius: 15px;
   width: 80%;
 }
 
@@ -580,7 +580,7 @@ button:hover {
   color: #172b4d;
   font-weight: bold;
   font-size: 32px;
-  margin-bottom: -20px;
+  margin-bottom: 20px;
 }
 
 .pop-skill2 {
@@ -593,7 +593,6 @@ button:hover {
 .pop-skill2 a {
   font-size: 13px;
   font-weight: 600;
-  display: flex;
   align-content: space-around;
   color: #7a869a;
 }

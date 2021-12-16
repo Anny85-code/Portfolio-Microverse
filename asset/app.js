@@ -36,7 +36,7 @@ const works = [
     imageDesktop: "asset/image/desktop-image/snapshoot-portfolio-1.png",
     popupImageMobile: "asset/image/modal_snapshoot_mobile.png",
     popupImageDesktop: "asset/image/desktop-image/modal_snapshoot.png",
-    technologiesPopup: [
+    toolsPopup: [
       "html",
       "css",
       "javaScript",
@@ -44,7 +44,7 @@ const works = [
       "Ruby",
       "Bootstrap",
     ],
-    technologies: ["html", "css", "javaScript"],
+    tools: ["html", "css", "javaScript"],
     linkLive: "",
     linkSource: "",
   },
@@ -57,8 +57,8 @@ const works = [
       "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum han printer took a galley of type and scrambled it 1960s with the releawn printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea",
     imageMobile: "asset/image/snapshoot-Portfolio2.png",
     imageDesktop: "asset/image/desktop-image/snapshoot-portfolio-2.png",
-    technologiesPopup: ["html", "Ruby on rails", "css", "javaScript"],
-    technologies: ["html", "css", "javaScript"],
+    toolsPopup: ["html", "Ruby on rails", "css", "javaScript"],
+    tools: ["html", "css", "javaScript"],
     popupImageMobile: "asset/image/modal_snapshoot_mobile.png",
     popupImageDesktop:
       "asset/image/desktop-image/modal_snapshoot.png",
@@ -74,8 +74,8 @@ const works = [
       "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum han printer took a galley of type and scrambled it 1960s with the releawn printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea",
     imageMobile: "asset/image/snapshoot-Portfolio3.png",
     imageDesktop: "asset/image/desktop-image/snapshoot-portfolio3.png",
-    technologiesPopup: ["html", "Ruby on rails", "css", "javaScript"],
-    technologies: ["html", "Ruby on rails", "css", "javaScript"],
+    toolsPopup: ["html", "Ruby on rails", "css", "javaScript"],
+    tools: ["html", "Ruby on rails", "css", "javaScript"],
     popupImageMobile: "asset/image/modal_snapshoot_mobile.png",
     popupImageDesktop: "asset/image/desktop-image/modal_snapshoot.png",
     linkLive: "",
@@ -90,8 +90,8 @@ const works = [
       "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum han printer took a galley of type and scrambled it 1960s with the releawn printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea",
     imageMobile: "asset/image/napshoot-Portfolio4.png",
     imageDesktop: "asset/image/desktop-image/snapshoot-portfolio4.png",
-    technologiesPopup: ["html", "Ruby on rails", "css", "javaScript"],
-    technologies: ["html", "Ruby on rails", "css", "javaScript"],
+    toolsPopup: ["html", "Ruby on rails", "css", "javaScript"],
+    tools: ["html", "Ruby on rails", "css", "javaScript"],
     popupImageMobile:"asset/image/modal_snapshoot_mobile.png",
     popupImageDesktop: "asset/image/desktop-image/modal_snapshoot.png",
     linkLive: "",
@@ -99,53 +99,53 @@ const works = [
   },
 ];
 
-function technologies(popup, techData) {
+function tools(popup, toolItem) {
   let a = 1;
-  let technologiesPopup = "";
-  let technologies = "";
-  techData.forEach((tech) => {
+  let toolsPopup = "";
+  let tools = "";
+  toolItem.forEach((tech) => {
     if (!popup) {
       if (tech.toLowerCase().includes("ruby")) {
-        technologies += `<li class="skill ruby"><a class="inner-skill">${tech}</a></li>`;
+        tools += `<li class="skill ruby pop-skill-child"><a class="inner-skill">${tech}</a></li>`;
       } else {
-        technologies += `<li class="skill"><a class="inner-skill">${tech}</a></li>`;
+        tools += `<li class="skill pop-skill-child"><a class="inner-skill">${tech}</a></li>`;
       }
     } else {
       if (a <= 3) {
-        technologies += `<li class="skill><a class="inner-skill">${tech}</a></li>`;
+        tools += `<li class="skill pop-skill-child"><a class="inner-skill pop-inner-skill">${tech}</a></li>`;
       } else {
-        technologiesPopup += `<li class="skill ruby"><a class="inner-skill">${tech}</a></li>`;
+        toolsPopup += `<li class="skill ruby pop-skill-child"><a class="inner-skill pop-inner-skill">${tech}</a></li>`;
       }
       a += 1;
     }
   });
-  return [technologies, technologiesPopup];
+  return [tools, toolsPopup];
 }
 
-let worksItemsBuild = "";
+let displaProperty = "";
 for (let i = 0; i < works.length; i += 1) {
-  // determine flex postion of image and work description
-  let flexPosition = "start";
-  let flexPositionReverse = "end";
+  
+  let cardPosition = "start";
+  let cardPositionReverse = "end";
   if (i % 2 !== 0) {
-    flexPosition = "end";
-    flexPositionReverse = "start";
+    cardPosition = "end";
+    cardPositionReverse = "start";
   }
 
-  // further loop within the parent loop to break and read technologies
-  const techData = technologies(false, works[i].technologies);
   
-  worksItemsBuild += `<div class="property">
+  const toolItem = tools(false, works[i].tools);
+  
+  displaProperty += `<div class="property">
     <div class="item1">
             <img src="${works[i].imageMobile}" class="portfolio-image" alt="Tonic" />
           </div>
-          <div class="desktop-image ${flexPosition}">
+          <div class="desktop-image ${cardPosition}">
             <img
               src="${works[i].imageDesktop}" class="portfolio-image-desktop"
               alt="Portfolio-card1"
             />
           </div>
-          <div class=" test ${flexPositionReverse}">
+          <div class=" test ${cardPositionReverse}">
           <div class="item2"><h2 class="work-title">${works[i].name}</h2></div>
           <div class="item3">
               <ul>
@@ -165,30 +165,37 @@ for (let i = 0; i < works.length; i += 1) {
             </div>
             <div class="item5">
             <ul class="inner-item">
-            ${techData[0]}
+            ${toolItem[0]}
            
         </ul>
             </div>
-            <div class="item6" index="${i}"><a class="item-button" href="#">See Project</a></div>
+            <div class="item6 see-btn" index-project="${i}"><a class="item-button" href="#">See Project</a></div>
           </div>
           </div>
      </div>`;
 }
 
-document.querySelector(".container").innerHTML = worksItemsBuild;
+document.querySelector(".container").innerHTML = displaProperty;
 
-/** * Dynamically adding works-flex items in works section end */
-function displayProjectDescriptionPopup(value) {
-  const techData = technologies(true, works[value].technologiesPopup);
+
+function renderPopUp(value) {
+  
+  const toolItem = tools(true, works[value].toolsPopup);
   const projectPopup = document.querySelector(".pop-menu-wrapper");
-  const popupContentBuilder = `<div class="pop-menu">
+  const popupCardBuilder = `<div class="pop-menu">
                                         <button class="close-popup">X</button>
                                         <div class="pop-skill1">${works[value].name}</h2></div>
                                         <div class="pop-skill2">
                                            <ul>
-                                           <li class="list-main">${works[value].details[0]}</li>
-                                           <li class="titles-item">${works[value].details[1]}</li>
-                                           <li class="titles-item">${works[value].details[2]}</li>
+                                           <li class="list-main"><a href="#">${works[value].details[0]}</a></li>
+                                           <li>
+                                           <a href="#"><img src="asset/image/counter.png" alt="dot" /></a>
+                                         </li>
+                                           <li class="titles-item"><a href="#">${works[value].details[1]}</a></li>
+                                           <li>
+                                           <a href="#"><img src="asset/image/counter.png" alt="dot" /></a>
+                                         </li>
+                                           <li class="titles-item"><a href="#">${works[value].details[2]}</a></li>
                                            </ul>
                                        </div>
                                    
@@ -209,35 +216,37 @@ function displayProjectDescriptionPopup(value) {
                                         </div>
                                         <div class="newTest">
                                         <div class="pop-skill">
-                                                   <ul>
-                                                    ${techData[0]}
+                                                   <ul class="pop-inner-item">
+                                                    ${toolItem[0]}
                                                    </ul>
-                                                   <ul>
-                                                    ${techData[1]}
+                                                   <ul class="pop-inner-item">
+                                                    ${toolItem[1]}
                                                    </ul>
                                                </div>
 
                                                <div class="pop-skill-button">
                                                <div class="pop-item6">
-                                                 <a href="${works[value].linkLive}">See Live <i class="fa fa-rss"></i></a>
+                                                 <a href="${works[value].linkLive}" class="pop-btn">See Live <i class="fa fa-rss"></i></a>
                                                </div>
                                                <div class="pop-item6">
-                                                 <a href="${works[value].linkSource}">See Source <i class="fa fa-github"></i></a>
+                                                 <a href="${works[value].linkSource}" class="pop-btn">See Source <i class="fa fa-github"></i></a>
                                                </div>
                                            </div>
                                        </div>
                                    </div>
                                </div>`;
-  projectPopup.innerHTML = popupContentBuilder;
-  projectPopup.style.visibility= "visible";
+  projectPopup.innerHTML = popupCardBuilder;
+  projectPopup.style.display= "block";
   const closePopup = document.querySelector(".close-popup");
   closePopup.addEventListener("click", () => {
     projectPopup.style.display = "none";
   });
 }
-const seeProjectButtons = document.querySelectorAll(".item-button");
+const seeProjectButtons = document.querySelectorAll(".see-btn");
+console.log(seeProjectButtons);
 for (let c = 0; c < seeProjectButtons.length; c += 1) {
   seeProjectButtons[c].addEventListener("click", () => {
-    displayProjectDescriptionPopup(seeProjectButtons[c].getAttribute('index'));
+    console.log(seeProjectButtons[c].getAttribute('index-project'));
+    renderPopUp(seeProjectButtons[c].getAttribute('index-project'));
   });
 }

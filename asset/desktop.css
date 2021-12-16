@@ -575,38 +575,36 @@ button:hover {
 /* modal */
 
 .pop-menu-wrapper {
-  display: grid;
-  grid-template-columns: auto;
-  grid-gap: 100px;
-  align-content: space-around;
+  display: none;
   margin-right: 24px;
   justify-content: center;
-  height: 100%;
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
   width: 100%;
-  background-color: #7a869a;
-  box-sizing: border-box;
-  padding-top: 80px;
-  padding-bottom: 100px;
+  height: 100%;
+  overflow: auto;
+  background-color: rgba(76, 78, 82);
+  background-color: rgb(76, 78, 82, 0.2);
 }
 
 .pop-menu {
-background-color: #fff;
-display: flex;
-flex-direction: column;
-padding: 20px;
-border: 1px solid #e5e5e5;
-border-radius: 3%;
-height: 100%;
-width: 80%;
-margin-left: 100px;
-visibility: hidden;
+  background-color: #fefefe;
+  margin: 15% auto;
+  padding: 20px;
+  border-style: solid;
+  border-color: rgb(219, 214, 214);
+  border-width: 1px;
+  border-radius: 15px;
+  width: 80%;
 }
 
 .pop-skill1 {
   color: #172b4d;
-font-weight: bold;
-font-size: 32px;
-margin-bottom: -20px;
+  font-weight: bold;
+  font-size: 32px;
+  margin-bottom: 20px;
 }
 
 .pop-skill2 {
@@ -617,6 +615,14 @@ margin-bottom: -20px;
 }
 
 .pop-skill2 a {
+  font-size: 18px;
+  font-weight: 600;
+  align-content: space-around;
+  color: #7a869a;
+  align-items: center;
+}
+
+.list-main {
   font-size: 13px;
   font-weight: 600;
   display: flex;
@@ -624,6 +630,13 @@ margin-bottom: -20px;
   color: #7a869a;
 }
 
+.titles-item {
+  font-size: 13px;
+  font-weight: 600;
+  display: flex;
+  align-content: space-around;
+  color: #7a869a;
+}
 .pop-end {
     display: flex;
 }
@@ -634,6 +647,11 @@ margin-bottom: -20px;
     margin-left: 20px;
     overflow: hidden;
 }
+
+.newTest ul {
+  margin-bottom: 20px;
+}
+
 .pop-inner-item {
   column-gap: 40px;
   flex-wrap: wrap;
@@ -689,6 +707,10 @@ margin-bottom: -20px;
   background-color: #6070ff;
 }
 
+.pop-btn {
+  color: #6070ff;
+  font-size: 15px;
+}
 
 .pop-skill-button{
     display: flex;
@@ -715,4 +737,10 @@ margin-bottom: -20px;
 
 .pop-skill-image {
   display: none;
+}
+
+.pop-menu button {
+  background-color: #fff;
+  cursor: pointer;
+  transform: scale(1.2);
 }

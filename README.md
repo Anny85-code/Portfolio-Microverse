@@ -1,16 +1,16 @@
 # My portfolio!
-Mobile Menu Toggle
+Modal features
 
-This project is the mobile menu feature of the project. all templates are taken from figma.
+This project is the modal feature of my portfolio project. all templates are taken from figma.
 
-![mobile-menu-latest1](https://user-images.githubusercontent.com/87186552/145875099-b730a6de-3e07-4c44-baf2-6d166f6c0c1a.png)
+![popup-image](https://user-images.githubusercontent.com/87186552/146431393-66cc1225-2312-4846-9e58-e4d6086558fd.png)
 
 # Built With
  - Html
  - Css
  - JavaScript
 
-The project is the Mobile menu togglr feature.
+The project is the Modal feature.
 # You can check it out at https://anny85-code.github.io/Portfolio-Microverse/
 
 👤 Author
