@@ -517,6 +517,48 @@ button:hover {
   box-sizing: border-box;
 }
 
+.form-control {
+  padding-bottom: 20px;
+  position: relative;
+}
+
+.form-control i {
+  visibility: hidden;
+  position: absolute;
+  top: -5px;
+  right: 10px;
+}
+
+.form-control.success input {
+  border-color: #2ecc71;
+}
+
+.form-control.error input {
+  border-color: #e74c3c;
+}
+
+.form-control.success i.fa-check-circle {
+  color: #2ecc71;
+  visibility: visible;
+}
+
+.form-control.error i.fa-exclamation-circle {
+  color: #e74c3c;
+  visibility: visible;
+}
+
+.form-control.error small {
+  color:  #e74c3c;
+  visibility: visible;
+}
+
+.form-control small {
+  visibility: hidden;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+
 .form-name {
   width: 315px;
   height: 43px;
@@ -547,7 +589,6 @@ button:hover {
   font-family: Poppins, sans-serif;
   padding-left: 12px;
   border-color: #fff;
-  margin-bottom: 12px;
 }
 
 .form-message {
@@ -562,6 +603,7 @@ button:hover {
   padding-left: 12px;
   padding-top: 12px;
   margin-bottom: 12px;
+  margin-top: 12px;
 }
 
 .form-btn:hover {
