@@ -239,7 +239,8 @@ li a {
 .item3 {
   display: flex;
   align-content: space-around;
-  margin-left: 40px;
+  margin-left: 20px;
+  width: max-content;
 }
 
 .item5 {
@@ -426,6 +427,7 @@ li a {
   font-size: 13px;
   line-height: 16px;
   color: #344563;
+  padding-left: 20px;
 }
 
 .item4 {
