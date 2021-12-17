@@ -17,21 +17,26 @@ function checkInputs() {
         setSuccessFor(clientName);
     }
     
-    if(userEmail === '' && !userEmail.toLowerCase()){
+    if(userEmail === ''){
         setErrorFor(email,'Email cannot be blank!');
-    } else if (!isEmail(userEmail)) {
+    } else if (userEmail !== userEmail.toLowerCase()){
+          setErrorFor(email,'Please Email should be in lowerCase!');
+    
+    }else if (!isEmail(userEmail)) {
         setErrorFor(email,'Email is not valid!');
     } else {
         setSuccessFor(email);
+        form.submit();
+        form.reset();
     }
-
+    
 }
 
 function setErrorFor(input,message) {
     const formControl = input.parentElement;
     const small = formControl.querySelector('small');
     small.innerText = message;
-    formControl.classList.replace('success', 'error');
+    formControl.className ='form-control error';
 
 }
 
@@ -43,6 +48,4 @@ function setSuccessFor(input) {
 
 }
 
-function isEmail(email) {
-    return /^(([^<>()\[\]\\.,;:\s@"]+(\.[^<>()\[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/.test(email);
-}
+
