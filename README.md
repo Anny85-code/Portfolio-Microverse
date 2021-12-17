@@ -1,16 +1,16 @@
 # My portfolio!
-Modal features
+Form validation features
 
-This project is the modal feature of my portfolio project. all templates are taken from figma.
+This project is the form validation feature of my portfolio project. all templates are taken from figma.
 
-![popup-image](https://user-images.githubusercontent.com/87186552/146431393-66cc1225-2312-4846-9e58-e4d6086558fd.png)
+![screencapture-form-validation](https://user-images.githubusercontent.com/87186552/146595758-d7dd59cf-78e5-4f1a-aac3-078bfa1c2791.png)
 
 # Built With
  - Html
  - Css
  - JavaScript
 
-The project is the Modal feature.
+The project is the form validation feature.
 # You can check it out at https://anny85-code.github.io/Portfolio-Microverse/
 
 👤 Author
