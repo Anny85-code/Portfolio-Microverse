@@ -542,6 +542,48 @@ button:hover {
   margin-bottom: 12px;
 }
 
+.form-control {
+  padding-bottom: 20px;
+  position: relative;
+}
+
+.form-control i {
+  visibility: hidden;
+  position: absolute;
+  top: -5px;
+  right: 10px;
+}
+
+.form-control.success input {
+  border-color: #2ecc71;
+}
+
+.form-control.error input {
+  border-color: #e74c3c;
+}
+
+.form-control.success i.fa-check-circle {
+  color: #2ecc71;
+  visibility: visible;
+}
+
+.form-control.error i.fa-exclamation-circle {
+  color: #e74c3c;
+  visibility: visible;
+}
+
+.form-control.error small {
+  color: #e74c3c;
+  visibility: visible;
+}
+
+.form-control small {
+  visibility: hidden;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+
 .form-btn:hover {
   background-color: #6070ff;
 }
@@ -628,8 +670,8 @@ button:hover {
 }
 
 .pop-skill {
-    margin-left: 40px;
-    margin-top: 20px;
+  margin-left: 40px;
+  margin-top: 20px;
 }
 
 .pop-inner-item > li {
@@ -675,15 +717,14 @@ button:hover {
   background-color: #6070ff;
 }
 
-
-.pop-skill-button{
-    display: flex;
-    flex-direction: row;
+.pop-skill-button {
+  display: flex;
+  flex-direction: row;
 }
 
 .pop-skill-image {
-    width: 100%;
-    margin-right: 10px;
+  width: 100%;
+  margin-right: 10px;
 }
 
 .close-popup {
@@ -694,7 +735,7 @@ button:hover {
   font-family: "Poppins", sans-serif;
   font-weight: bold;
   display: flex;
-  justify-content:end;
+  justify-content: end;
   border: none;
   background-color: #fff;
 }
