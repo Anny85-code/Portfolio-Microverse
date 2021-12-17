@@ -238,32 +238,34 @@
             that needs coding. I’d love to help with it
           </p>
           <form
-            action="https://formspree.io/f/xwkyerjl
-                        "
-            method="post"
-            class="contact-me"
-          >
+            action="https://formspree.io/f/xwkyerjl" method="post" class="contact-me" id="contact-me-form">
+           <div class="form-control">
             <input
               type="text"
-              class="form-name"
+              class="form-name" id="contact-form-name"
               name="contact-name"
               placeholder="name"
-              required
-              maxlength="30"
-            />
-
+              maxlength="30"/>
+              <i class="fa fa-check-circle"></i>
+              <i class="fa fa-exclamation-circle"></i>
+              <small>Error Message</small>
+          </div>
+          
+          <div class="form-control">
             <input
               type="email"
-              pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$"
-              class="form-email"
+              
+              class="form-email" id="contact-form-email"
               name="contact-email"
-              placeholder="email"
-              required
-            />
+              placeholder="email"/>
+              <i class="fa fa-check-circle"></i>
+              <i class="fa fa-exclamation-circle"></i>
+              <small>Error Message</small>
+          </div>
 
             <textarea
               name="message"
-              class="form-message"
+              class="form-message" id="contact-form-text"
               cols="50"
               rows="10"
               required
@@ -287,5 +289,7 @@
   </body>
 
   <!-- script -->
-  <script src="asset/app.js"></script>
+  <script src="asset/js/app.js"></script>
+  <script src="asset/js/validation.js"></script>
+  <script src="asset/js/localstorage.js"></script>
 </html>
