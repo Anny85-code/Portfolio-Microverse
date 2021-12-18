@@ -29,7 +29,7 @@ function checkInputs() {
   } else {
     setSuccessFor(email);
     form.submit();
-    form.reset(userEmail,userName);
+    form.reset();
   }
 }
 
