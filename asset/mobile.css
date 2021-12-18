@@ -196,6 +196,10 @@ li a {
   margin: 0 10px 10px 0;
 }
 
+.social-media-icons a {
+    margin-left: 5px;
+}
+
 .portfolio-image:hover {
   cursor: pointer;
   transform: scale(1.2);
