@@ -49,6 +49,9 @@
   line-height: 44px;
 }
 
+.menu-bar {
+  margin-right: 20px;
+}
 .nav-menu li a {
   color: #fff;
   font-weight: 600;
