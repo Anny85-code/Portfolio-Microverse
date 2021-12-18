@@ -23,12 +23,13 @@ function checkInputs() {
     setErrorFor(email, "Email cannot be blank!");
   } else if (userEmail !== userEmail.toLowerCase()) {
     setErrorFor(email, "Please Email should be in lowerCase!");
+
   } else if (!isEmail(userEmail)) {
     setErrorFor(email, "Email is not valid!");
   } else {
     setSuccessFor(email);
     form.submit();
-    form.reset();
+    form.reset(userEmail,userName);
   }
 }
 

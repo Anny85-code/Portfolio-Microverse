@@ -28,6 +28,11 @@ li a {
 
 .desktop-nav a {
   color: #6070ff;
+  cursor: pointer;
+}
+
+.desktop-nav:hover {
+  transform: scale(1.1);
 }
 
 .mobile-nav {
@@ -74,6 +79,10 @@ li a {
   color: #6070ff;
   text-decoration: none;
   padding-left: 117px;
+}
+
+.mobile-nav1:hover {
+  transform: scale(1.1);
 }
 
 .main-header-section {
@@ -525,7 +534,7 @@ button:hover {
 .form-control i {
   visibility: hidden;
   position: absolute;
-  top: -5px;
+  top: 5px;
   right: 10px;
 }
 
@@ -573,7 +582,6 @@ button:hover {
   padding-left: 12px;
   padding-top: 5px;
   border-color: #fff;
-  margin-bottom: 12px;
 }
 
 .form-email {
@@ -589,6 +597,7 @@ button:hover {
   font-family: Poppins, sans-serif;
   padding-left: 12px;
   border-color: #fff;
+  margin-top: 12px;
 }
 
 .form-message {
