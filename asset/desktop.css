@@ -173,6 +173,16 @@ ul {
   margin: 0 10px 10px 0;
 }
 
+.connect ul li a img:hover {
+  transform: scale(1.2);
+  cursor: pointer;
+}
+
+.contact-icon-section li a img:hover {
+  transform: scale(1.2);
+  cursor: pointer;
+}
+
 .portfolio-image:hover {
   cursor: pointer;
   transform: scale(1.2);
