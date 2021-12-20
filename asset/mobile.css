@@ -50,7 +50,7 @@
 }
 
 .menu-bar {
-  margin-right: 24px;
+  margin-right: 20px;
 }
 
 .nav-menu li a {
@@ -176,6 +176,16 @@ a {
 .connect {
   order: 2;
   margin-top: 10px;
+}
+
+.connect ul li a img:hover {
+  transform: scale(1.2);
+  cursor: pointer;
+}
+
+.contact-icon-section li a img:hover {
+  transform: scale(1.2);
+  cursor: pointer;
 }
 
 li a {
