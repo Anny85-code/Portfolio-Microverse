@@ -245,7 +245,6 @@ function renderPopUp(value) {
 const seeProjectButtons = document.querySelectorAll(".see-btn");
 for (let j = 0; j < seeProjectButtons.length; j += 1) {
   seeProjectButtons[j].addEventListener("click", () => {
-    console.log(seeProjectButtons[j].getAttribute('index-project'));
     renderPopUp(seeProjectButtons[j].getAttribute('index-project'));
   });
 }
