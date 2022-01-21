@@ -1,111 +1,103 @@
-const navMenu = document.getElementById("menu-bar");
-const getSideBar = document.querySelector(".nav-menu");
-const closeBtn = document.querySelector(".aside-close");
-const navLinks = document.querySelectorAll(".mobile-nav li");
+const navMenu = document.getElementById('menu-bar');
+const getSideBar = document.querySelector('.nav-menu');
+const closeBtn = document.querySelector('.aside-close');
+const navLinks = document.querySelectorAll('.mobile-nav li');
 
 const toggleSideBar = false;
 const closeButton = false;
 
-navMenu.addEventListener("click", function () {
+navMenu.addEventListener('click', function () {
   if (toggleSideBar === false) {
-    getSideBar.style.visibility = "visible";
+    getSideBar.style.visibility = 'visible';
   }
 });
 
-closeBtn.addEventListener("click", function () {
+closeBtn.addEventListener('click', function () {
   if (closeButton === false) {
-    getSideBar.style.visibility = "hidden";
+    getSideBar.style.visibility = 'hidden';
   }
 });
 
 function closeLinks() {
-  getSideBar.style.visibility = "hidden";
+  getSideBar.style.visibility = 'hidden';
 }
 
-navLinks.forEach((links) => links.addEventListener("click", closeLinks));
+navLinks.forEach((links) => links.addEventListener('click', closeLinks));
 
 const works = [
   {
-    name: "Tonic",
-    details: ["CANOPY", "Back End Dev", "2015"],
+    name: 'TO-DO-LIST',
+    details: ['To-Do-List', 'Back End Dev', '2015'],
     smallPageDescription:
-      "A daily selection of privately personalized reads; no accounts or sign-ups required.",
+      "This 'To-do-list' app is a simple web application that displays a list of task and allows you to add and remove task from that list.",
     bigPageDescription:
-      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum han printer took a galley of type and scrambled it 1960s with the releawn printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea",
-    imageMobile: "asset/image/snapshoot-Portfolio.png",
-    imageDesktop: "asset/image/desktop-image/snapshoot-portfolio-1.png",
-    popupImageMobile: "asset/image/modal_snapshoot_mobile.png",
-    popupImageDesktop: "asset/image/desktop-image/modal_snapshoot.png",
-    toolsPopup: [
-      "html",
-      "css",
-      "javaScript",
-      "github",
-      "Ruby",
-      "Bootstrap",
-    ],
-    tools: ["html", "css", "javaScript"],
-    linkLive: "",
-    linkSource: "",
+      "This To-do-list' app is a simple web application that displays a list of task and allows you to add and remove task from that list. it is built with the latest technology namely; JavaScript with webpack Configuration. One of the most important reasons you should use a to do list is that it will help you stay organised. When you write all your tasks in a list, they seem more manageable. When you’ve got a clear outline of the tasks you’ve got to do and those you’ve completed, it helps you stay focused. While freeing up space in your mind for other more creative tasks.",
+    imageMobile: 'asset/image/mobile/toDoList-mobile.png',
+    imageDesktop: 'asset/image/desktop/toDoList-desktop.png',
+    popupImageMobile: 'asset/image/mobile/toDoList-mobile.png',
+    popupImageDesktop: 'asset/image/pop up/toDoList-popup.png',
+    toolsPopup: ['html', 'css', 'javaScript', 'github', 'Ruby', 'Bootstrap'],
+    tools: ['html', 'css', 'javaScript'],
+    linkLive: 'https://anny85-code.github.io/to-do-list/dist',
+    linkSource: 'https://github.com/Anny85-code/to-do-list',
   },
   {
-    name: "Multi-Post Stories",
-    details: ["FACEBOOK", "Full Stack Dev", "2015"],
+    name: 'AWESOME BOOK',
+    details: ['Awesome Book', 'Full Stack Dev', '2015'],
     smallPageDescription:
-      "Experimental content creation feature that allows users to add to an existing story over the course of a day without spamming their friends.",
+      'This project is a basic website that allows users to add/remove books from a list.',
     bigPageDescription:
-      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum han printer took a galley of type and scrambled it 1960s with the releawn printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea",
-    imageMobile: "asset/image/snapshoot-Portfolio2.png",
-    imageDesktop: "asset/image/desktop-image/snapshoot-portfolio-2.png",
-    toolsPopup: ["html", "Ruby on rails", "css", "javaScript"],
-    tools: ["html", "css", "javaScript"],
-    popupImageMobile: "asset/image/modal_snapshoot_mobile.png",
-    popupImageDesktop:
-      "asset/image/desktop-image/modal_snapshoot.png",
-    linkLive: "",
-    linkSource: "",
+      'This project is a basic website that allows users to add/remove books from a list. The main objective of this app is to understand how to use JavaScript objects and arrays dynamically and to modify the DOM and add basic events. This will follow professional guidelines in responsive design. all features are design prfessionally to give a feel of software engineering. this is powered by three different tools namely; HTML, CSS and JavaScript. The application is for personal and industrial purposes. It is a simple website that displays a list of books and allows you to add and remove books from that list. By building this application, you will learn how to manage data using JavaScript. Thanks to that your website will be more interactive. built with modern JavaScript and uses SPA technology',
+    imageMobile: 'asset/image/mobile/awesomeBook-mobile.png',
+    imageDesktop: 'asset/image/desktop/awesomeBook-desktop.png',
+    toolsPopup: ['html', 'Ruby on rails', 'css', 'javaScript'],
+    tools: ['html', 'css', 'javaScript'],
+    popupImageMobile: 'asset/image/mobile/awesomeBook-mobile.png',
+    popupImageDesktop: 'asset/image/pop up/awesomeBook-pop-up.png',
+    linkLive: 'https://anny85-code.github.io/AwesomeBook/',
+    linkSource: 'https://github.com/Anny85-code/AwesomeBook',
   },
   {
-    name: "Facebook 360",
-    details: ["FACEBOOK", "Full Stack Dev", "2015"],
+    name: 'CYBERSECURITY CONFERENCE WEBSITE',
+    details: ['CyberSecurity Conference Website', 'Full Stack Dev', '2015'],
     smallPageDescription:
-      "Exploring the future of media in Facebook's first Virtual Reality app; a place to discover and enjoy 360 photos and videos on Gear VR.",
+      'This a conference website that allows users to navigate and gets the list and book for a conference program. it is built with JavaScript.',
     bigPageDescription:
-      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum han printer took a galley of type and scrambled it 1960s with the releawn printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea",
-    imageMobile: "asset/image/snapshoot-Portfolio3.png",
-    imageDesktop: "asset/image/desktop-image/snapshoot-portfolio3.png",
-    toolsPopup: ["html", "Ruby on rails", "css", "javaScript"],
-    tools: ["html", "Ruby on rails", "css", "javaScript"],
-    popupImageMobile: "asset/image/modal_snapshoot_mobile.png",
-    popupImageDesktop: "asset/image/desktop-image/modal_snapshoot.png",
-    linkLive: "",
-    linkSource: "",
+      "This web app allows attenddee's of this conference to maneuver the chunks of activities in the conference at ease. The Conference seeks to create an interface between ICT and Cybercrime sectors to debate how ICT can be leveraged at scale to support the achievement of the past. The Conference outputs will include a high-level Statement to provide stakeholders with policy recommendations about how to harness the power of ICT to address current cyber security challenges and to ensure equitable quality awareness opportunities for all, and following up actions and relevant partnerships that are aimed to help stakeholders develop system-wide ICT and cyber security awareness strategies",
+    imageMobile: 'asset/image/mobile/capston2-mobile.png',
+    imageDesktop: 'asset/image/desktop/capston2-desktop.png',
+    toolsPopup: ['html', 'Ruby on rails', 'css', 'javaScript'],
+    tools: ['html', 'Ruby on rails', 'css', 'javaScript'],
+    popupImageMobile: 'asset/image/mobile/capston2-mobile.png',
+    popupImageDesktop: 'asset/image/pop up/capston2-popup.png',
+    linkLive: 'https://anny85-code.github.io/Capstone-one/',
+    linkSource: 'https://github.com/Anny85-code/Capstone-one',
   },
   {
-    name: "Uber navigation",
-    details: ["Uber", "Lead developer", "2018"],
+    name: 'AWESOME BOOK ES6',
+    details: ['Awesome book ES6', 'Lead developer', '2018'],
     smallPageDescription:
-      "A smart assistant to make driving more safe, efficient, and fun by unlocking your most expensive computer: your car.",
+      'Awesome book ES6" is a simple website that displays a list of books and allows you to add and remove books from that list.',
     bigPageDescription:
-      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum han printer took a galley of type and scrambled it 1960s with the releawn printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea",
-    imageMobile: "asset/image/napshoot-Portfolio4.png",
-    imageDesktop: "asset/image/desktop-image/snapshoot-portfolio4.png",
-    toolsPopup: ["html", "Ruby on rails", "css", "javaScript"],
-    tools: ["html", "Ruby on rails", "css", "javaScript"],
-    popupImageMobile:"asset/image/modal_snapshoot_mobile.png",
-    popupImageDesktop: "asset/image/desktop-image/modal_snapshoot.png",
-    linkLive: "",
-    linkSource: "",
+      '"Awesome bookES6" is a simple website that displays a list of books and allows you to add and remove books from that list. By building this application, you will learn how to manage data using JavaScript. Thanks to that your website will be more interactive. built with modern JavaScript and uses SPA technology. The main objective of this app is to understand how to use JavaScript objects and arrays dynamically and to modify the DOM and add basic events. This will follow professional guidelines in responsive web design. all features are design prfessionally to give a feel of software engineering. this is powered by three different tools namely; HTML, CSS and JavaScript. The application is for personal and industrial purposes.',
+    imageMobile: 'asset/image/mobile/awesomeBookES6-mobile.png',
+    imageDesktop: 'asset/image/desktop/awesomeBookES6-desktop.png',
+    toolsPopup: ['html', 'Ruby on rails', 'css', 'javaScript'],
+    tools: ['html', 'Ruby on rails', 'css', 'javaScript'],
+    popupImageMobile: 'asset/image/mobile/awesomeBookES6-mobile.png',
+    popupImageDesktop: 'asset/image/pop up/awesomeBookES6-popup.png',
+    linkLive: 'https://anny85-code.github.io/awesome-books-es6/',
+    linkSource: 'https://github.com/Anny85-code/awesome-books-es6',
   },
 ];
 
 function tools(popup, toolItem) {
   let a = 1;
-  let toolsPopup = "";
-  let tools = "";
+  let toolsPopup = '';
+  let tools = '';
   toolItem.forEach((tech) => {
     if (!popup) {
-      if (tech.toLowerCase().includes("ruby")) {
+      if (tech.toLowerCase().includes('ruby')) {
         tools += `<li class="skill ruby pop-skill-child"><a class="inner-skill">${tech}</a></li>`;
       } else {
         tools += `<li class="skill pop-skill-child"><a class="inner-skill">${tech}</a></li>`;
@@ -122,19 +114,17 @@ function tools(popup, toolItem) {
   return [tools, toolsPopup];
 }
 
-let displaProperty = "";
+let displaProperty = '';
 for (let i = 0; i < works.length; i += 1) {
-  
-  let cardPosition = "start";
-  let cardPositionReverse = "end";
+  let cardPosition = 'start';
+  let cardPositionReverse = 'end';
   if (i % 2 !== 0) {
-    cardPosition = "end";
-    cardPositionReverse = "start";
+    cardPosition = 'end';
+    cardPositionReverse = 'start';
   }
 
-  
   const toolItem = tools(false, works[i].tools);
-  
+
   displaProperty += `<div class="property">
     <div class="item1">
             <img src="${works[i].imageMobile}" class="portfolio-image" alt="Tonic" />
@@ -175,13 +165,11 @@ for (let i = 0; i < works.length; i += 1) {
      </div>`;
 }
 
-document.querySelector(".container").innerHTML = displaProperty;
-
+document.querySelector('.container').innerHTML = displaProperty;
 
 function renderPopUp(value) {
-  
   const toolItem = tools(true, works[value].toolsPopup);
-  const projectPopup = document.querySelector(".pop-menu-wrapper");
+  const projectPopup = document.querySelector('.pop-menu-wrapper');
   const popupCardBuilder = `<div class="pop-menu">
                                         <button class="close-popup">X</button>
                                         <div class="pop-skill1">${works[value].name}</h2></div>
@@ -236,15 +224,15 @@ function renderPopUp(value) {
                                    </div>
                                </div>`;
   projectPopup.innerHTML = popupCardBuilder;
-  projectPopup.style.display= "block";
-  const closePopup = document.querySelector(".close-popup");
-  closePopup.addEventListener("click", () => {
-    projectPopup.style.display = "none";
+  projectPopup.style.display = 'block';
+  const closePopup = document.querySelector('.close-popup');
+  closePopup.addEventListener('click', () => {
+    projectPopup.style.display = 'none';
   });
 }
-const seeProjectButtons = document.querySelectorAll(".see-btn");
+const seeProjectButtons = document.querySelectorAll('.see-btn');
 for (let j = 0; j < seeProjectButtons.length; j += 1) {
-  seeProjectButtons[j].addEventListener("click", () => {
+  seeProjectButtons[j].addEventListener('click', () => {
     renderPopUp(seeProjectButtons[j].getAttribute('index-project'));
   });
 }
