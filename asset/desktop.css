@@ -4,7 +4,6 @@
   justify-content: end;
   height: 20px;
   list-style-type: none;
-  background-color: #fff;
 }
 
 .desktop-nav li {
@@ -42,10 +41,9 @@ li a {
 .nav-bar {
   display: flex;
   justify-content: space-between;
-  width: 100%;
+  width: 98%;
   position: fixed;
   height: 40px;
-  background-color: #fff;
 }
 
 .nav-menu {
@@ -56,8 +54,7 @@ li a {
   display: flex;
   padding-top: 15px;
   padding-right: 60px;
-  width: 100%;
-  background-color: #fff;
+  width: 90%;
   height: 40px;
   margin-bottom: 100px;
 }
@@ -86,7 +83,7 @@ li a {
 }
 
 .main-header-section {
-  background-image: url("../asset/image/desktop-image/Header-bg@desktop.png");
+  background-image: url('../asset/image/desktop-image/Header-bg@desktop.png');
   background-repeat: no-repeat;
   background-size: contain;
   padding-right: 260px;
@@ -101,7 +98,7 @@ body {
   margin: 0;
   background-color: #e5e5e5;
   font-family: 'Poppins', sans-serif;
-  width: 100%;
+  width: 100vw;
 }
 
 .headline {
@@ -500,7 +497,7 @@ button:hover {
   height: 729px;
   background: #6070ff;
   border-top-left-radius: 60px 60px;
-  background-image: url("/asset/image/desktop-image/contact-form-background-shapes@2x.png");
+  background-image: url('/asset/image/desktop-image/contact-form-background-shapes@2x.png');
   background-repeat: no-repeat;
   background-size: contain;
   margin-top: 350px;
@@ -567,7 +564,7 @@ button:hover {
 }
 
 .form-control.error small {
-  color:  #e74c3c;
+  color: #e74c3c;
   visibility: visible;
 }
 
@@ -699,14 +696,14 @@ button:hover {
   color: #7a869a;
 }
 .pop-end {
-    display: flex;
+  display: flex;
 }
 
 .newTest {
-    display: flex;
-    flex-direction: column;
-    margin-left: 20px;
-    overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  margin-left: 20px;
+  overflow: hidden;
 }
 
 .newTest ul {
@@ -730,8 +727,8 @@ button:hover {
 }
 
 .pop-skill {
-    margin-left: 40px;
-    margin-top: 20px;
+  margin-left: 40px;
+  margin-top: 20px;
 }
 
 .pop-inner-item > li {
@@ -778,13 +775,13 @@ button:hover {
   color: #fff;
 }
 
-.pop-skill-button{
-    display: flex;
-    flex-direction: row;
+.pop-skill-button {
+  display: flex;
+  flex-direction: row;
 }
 
 .pop-desktop-image {
-    width: 100%;
+  width: 100%;
 }
 
 .close-popup {
@@ -792,10 +789,10 @@ button:hover {
   font-size: 20px;
   float: right;
   color: #000;
-  font-family: "Poppins", sans-serif;
+  font-family: 'Poppins', sans-serif;
   font-weight: bold;
   display: flex;
-  justify-content:end;
+  justify-content: end;
   border: none;
   font-weight: bold;
   background-color: #fff;

@@ -230,6 +230,7 @@ li a {
   grid-gap: 100px;
   align-content: space-around;
   margin-left: 20px;
+  margin-right: 10px;
 }
 
 .property {
