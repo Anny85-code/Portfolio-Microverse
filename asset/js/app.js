@@ -26,7 +26,7 @@ navLinks.forEach((links) => links.addEventListener('click', closeLinks));
 
 const works = [
   {
-    name: 'TO-DO',
+    name: 'TO-DO-LIST',
     details: ['ToDo-List', 'Back End Dev', '2015'],
     smallPageDescription:
       "This 'To-do-list' app is a simple web application that displays a list of task and allows you to add and remove task from that list.",
@@ -42,7 +42,7 @@ const works = [
     linkSource: 'https://github.com/Anny85-code/to-do-list',
   },
   {
-    name: 'AWESOME',
+    name: 'AWESOME BOOK',
     details: ['Awesome Book', 'Full Stack Dev', '2015'],
     smallPageDescription:
       'This project is a basic website that allows users to add/remove books from a list.',
@@ -58,7 +58,7 @@ const works = [
     linkSource: 'https://github.com/Anny85-code/AwesomeBook',
   },
   {
-    name: 'WEBSITE',
+    name: 'C.C WEBSITE',
     details: ['C Website', 'Full Stack Dev', '2015'],
     smallPageDescription:
       'This a conference website that allows users to navigate and gets the list and book for a conference program. it is built with JavaScript.',
@@ -74,7 +74,7 @@ const works = [
     linkSource: 'https://github.com/Anny85-code/Capstone-one',
   },
   {
-    name: 'AWESOME',
+    name: 'AWESOME BOOK ES6',
     details: ['A book ES6', 'Lead developer', '2018'],
     smallPageDescription:
       'Awesome book ES6" is a simple website that displays a list of books and allows you to add and remove books from that list.',

@@ -76,9 +76,10 @@ ul {
 
 #main-sect {
   background-color: #fff;
-  width: 100%;
+  width: fit-content;
   padding-top: 58px;
   border-bottom-left-radius: 60px 60px;
+  box-sizing: content-box;
 }
 
 .nav-bar {
@@ -121,12 +122,18 @@ ul {
   border-bottom-left-radius: 60px 60px;
   padding-bottom: 120px;
   background-position: 100% 30%;
+  box-sizing: border-box;
+  width: fit-content;
 }
 
 body {
   margin: 0;
   background-color: #e5e5e5;
   font-family: 'Poppins', sans-serif;
+}
+
+html {
+  display: flex;
 }
 
 .headline {
@@ -228,8 +235,7 @@ li a {
   display: grid;
   grid-template-columns: 1fr;
   grid-gap: 100px;
-  align-content: space-around;
-  margin-left: 20px;
+  justify-items: center;
 }
 
 .property {
@@ -239,7 +245,8 @@ li a {
   padding: 20px;
   border: 1px solid #e5e5e5;
   border-radius: 3%;
-  width: 80%;
+  width: 90%;
+  box-sizing: border-box;
 }
 
 .desktop-image {
@@ -380,12 +387,10 @@ li a {
   display: flex;
   flex-direction: column;
   padding: 20px 30px;
-  padding-top: 20px;
   border-top-right-radius: 60px 60px;
   margin-top: 100px;
-  margin-right: -60px;
   box-sizing: border-box;
-  width: 100%;
+  width: fit-content;
 }
 
 .contact-icon-section {
