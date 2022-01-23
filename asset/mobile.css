@@ -240,6 +240,7 @@ li a {
   border: 1px solid #e5e5e5;
   border-radius: 3%;
   width: 80%;
+  box-sizing: border-box;
 }
 
 .desktop-image {
