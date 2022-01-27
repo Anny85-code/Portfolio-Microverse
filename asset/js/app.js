@@ -74,20 +74,20 @@ const works = [
     linkSource: 'https://github.com/Anny85-code/Capstone-one',
   },
   {
-    name: 'AWESOME BOOK ES6',
-    details: ['A book ES6', 'Lead developer', '2018'],
+    name: 'LEADERBOARD',
+    details: ['Leaderboard', 'Lead developer', '2018'],
     smallPageDescription:
-      'Awesome book ES6" is a simple website that displays a list of books and allows you to add and remove books from that list.',
+      '"leaderboard" is a simple web application that displays a table of names and scores and allows you to add and remove names and scores from that table.',
     bigPageDescription:
-      '"Awesome bookES6" is a simple website that displays a list of books and allows you to add and remove books from that list. By building this application, you will learn how to manage data using JavaScript. Thanks to that your website will be more interactive. built with modern JavaScript and uses SPA technology. The main objective of this app is to understand how to use JavaScript objects and arrays dynamically and to modify the DOM and add basic events. This will follow professional guidelines in responsive web design. all features are design prfessionally to give a feel of software engineering. this is powered by three different tools namely; HTML, CSS and JavaScript. The application is for personal and industrial purposes.',
-    imageMobile: 'asset/image/mobile/awesomeBookES6-mobile.png',
-    imageDesktop: 'asset/image/desktop/awesomeBookES6-desktop.png',
+      '"leaderboard" is a simple web application that displays a table of names and scores and allows you to add and remove names and scores from that table. Built with modern JavaScript, webpack boiler plate and API. the work put in building this application, is to help you learn how to manage data using JavaScript. Thanks to that the website will be more interactive. built with modern JavaScript and uses SPA technology. The main objective of this app is to understand how to use JavaScript objects and arrays dynamically and to modify the DOM and add basic events. This will follow professional guidelines in responsive web design. all features are design prfessionally to give a feel of software engineering. this is powered by three different tools namely; HTML, CSS and JavaScript. The application is for personal and industrial purposes.',
+    imageMobile: 'asset/image/mobile/leaderboardlatest-mobile.png',
+    imageDesktop: 'asset/image/desktop/leaderboardlatest-desktop.png',
     toolsPopup: ['html', 'Ruby on rails', 'css', 'javaScript'],
     tools: ['html', 'Ruby on rails', 'css', 'javaScript'],
-    popupImageMobile: 'asset/image/mobile/awesomeBookES6-mobile.png',
-    popupImageDesktop: 'asset/image/pop up/awesomeBookES6-popup.png',
-    linkLive: 'https://anny85-code.github.io/awesome-books-es6/',
-    linkSource: 'https://github.com/Anny85-code/awesome-books-es6',
+    popupImageMobile: 'asset/image/mobile/leaderboardlatest-mobile.png',
+    popupImageDesktop: 'asset/image/pop up/leaderboardlatest-popup.png',
+    linkLive: 'https://anny85-code.github.io/leaderboard/dist',
+    linkSource: 'https://github.com/Anny85-code/leaderboard',
   },
 ];
 
