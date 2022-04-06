@@ -30,6 +30,10 @@ li a {
   cursor: pointer;
 }
 
+.uae{
+  height: 100px;
+}
+
 .desktop-nav:hover {
   transform: scale(1.1);
 }
