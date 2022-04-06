@@ -32,6 +32,7 @@ li a {
 
 .uae{
   height: 100px;
+  border-radius: 10px;
 }
 
 .desktop-nav:hover {
