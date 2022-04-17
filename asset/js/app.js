@@ -2,6 +2,18 @@ const navMenu = document.getElementById('menu-bar');
 const getSideBar = document.querySelector('.nav-menu');
 const closeBtn = document.querySelector('.aside-close');
 const navLinks = document.querySelectorAll('.mobile-nav li');
+const chevronDown = document.querySelector('.chev-down');
+const chevronRight = document.querySelector('.right-arrow');
+const outerDesktop = document.querySelector('.outer-desktop');
+
+const chevronDownFrameWork = document.querySelector('.chev-down-frame-work');
+const chevronRightFrameWork = document.querySelector('.chev-right-framework');
+const outerDesktopFrameWork = document.querySelector('.outer-desktop-framework');
+
+const chevronDownSkill = document.querySelector('.chev-down-skill');
+const chevronRightSkill = document.querySelector('.chev-right-skill');
+const outerDesktopSkill = document.querySelector('.outer-desktop-skill');
+
 
 const toggleSideBar = false;
 const closeButton = false;
@@ -19,10 +31,76 @@ closeBtn.addEventListener('click', function () {
 });
 
 function closeLinks() {
-  getSideBar.style.visibility = 'hidden';
+  getSideBar.style.display = 'none';
 }
 
 navLinks.forEach((links) => links.addEventListener('click', closeLinks));
+
+// language and skills section
+
+chevronDown.style.display = 'none'
+const windowSize = window.outerWidth;
+chevronRight.addEventListener('click', ()=> {
+  
+  if (windowSize >= 992) {
+  outerDesktop.style.display = 'flex';
+  } else{
+    outerDesktop.style.display = 'block';
+  }
+
+  chevronRight.style.hover = 'transform: rotateZ(90deg)'
+  chevronDown.style.display = 'block'
+  chevronRight.style.display = 'none'
+})
+
+chevronDown.addEventListener('click', ()=>{
+  outerDesktop.style.display = 'none'
+  chevronDown.style.display = 'none'
+  chevronRight.style.display = 'block'
+})
+
+// framework
+chevronDownFrameWork.style.display = 'none';
+
+chevronRightFrameWork.addEventListener('click', () => {
+  if (windowSize >= 992) {
+    outerDesktopFrameWork.style.display = 'flex';
+  } else {
+    outerDesktopFrameWork.style.display = 'block';
+  }
+
+  chevronRightFrameWork.style.hover = 'transform: rotateZ(90deg)';
+  chevronDownFrameWork.style.display = 'block';
+  chevronRightFrameWork.style.display = 'none';
+});
+
+chevronDownFrameWork.addEventListener('click', () => {
+  outerDesktopFrameWork.style.display = 'none';
+  chevronDownFrameWork.style.display = 'none';
+  chevronRightFrameWork.style.display = 'block';
+});
+
+// skills
+chevronDownSkill.style.display = 'none';
+
+chevronRightSkill.addEventListener('click', () => {
+  if (windowSize >= 992) {
+    outerDesktopSkill.style.display = 'flex';
+  } else {
+    outerDesktopSkill.style.display = 'block';
+  }
+
+  chevronRightSkill.style.hover = 'transform: rotateZ(90deg)';
+  chevronDownSkill.style.display = 'block';
+  chevronRightSkill.style.display = 'none';
+});
+
+chevronDownSkill.addEventListener('click', () => {
+  outerDesktopSkill.style.display = 'none';
+  chevronDownSkill.style.display = 'none';
+  chevronRightSkill.style.display = 'block';
+});
+
 
 const works = [
   {
