@@ -90,7 +90,7 @@ ul {
   top: 30px;
 }
 
-.uae{
+.uae {
   height: 60px;
   border-radius: 10px;
   margin-top: -4px;
@@ -374,6 +374,10 @@ li a {
   background-color: #f7f7f9;
   padding: 10px 10px;
   margin-bottom: 10px;
+}
+
+.outer-desktop {
+  display: none;
 }
 
 .outer p {

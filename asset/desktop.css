@@ -373,6 +373,7 @@ ul {
   grid-template-columns: 1fr 1fr 1fr;
   grid-gap: 12px;
   width: fit-content;
+  display: none;
 }
 
 .outer p {

@@ -2,6 +2,10 @@ const navMenu = document.getElementById('menu-bar');
 const getSideBar = document.querySelector('.nav-menu');
 const closeBtn = document.querySelector('.aside-close');
 const navLinks = document.querySelectorAll('.mobile-nav li');
+const chevronDown = document.querySelector('.chev-down');
+const chevronRight = document.querySelector('.right-arrow');
+const outerDesktop = document.querySelector('.outer-desktop');
+
 
 const toggleSideBar = false;
 const closeButton = false;
@@ -19,10 +23,26 @@ closeBtn.addEventListener('click', function () {
 });
 
 function closeLinks() {
-  getSideBar.style.visibility = 'hidden';
+  getSideBar.style.display = 'none';
 }
 
 navLinks.forEach((links) => links.addEventListener('click', closeLinks));
+
+chevronDown.style.display = 'none'
+
+chevronRight.addEventListener('click', ()=> {
+  outerDesktop.style.display = 'flex'
+  chevronRight.style.hover = 'transform: rotateZ(90deg)'
+  chevronDown.style.display = 'block'
+  chevronRight.style.display = 'none'
+})
+
+chevronDown.addEventListener('click', ()=>{
+  outerDesktop.style.display = 'none'
+  chevronDown.style.display = 'none'
+  chevronRight.style.display = 'block'
+})
+
 
 const works = [
   {
