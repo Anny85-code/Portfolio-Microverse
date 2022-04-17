@@ -310,6 +310,7 @@ li a {
   justify-content: space-between;
   text-align: center;
   border-bottom: 1px solid #acd7c3;
+  margin-bottom: 10px;
 }
 
 .about-me i {
@@ -388,6 +389,14 @@ li a {
 }
 
 .outer-desktop-framework {
+  display: flex;
+  flex-direction: column;
+  grid-gap: 12px;
+  width: 320px;
+  display: none;
+}
+
+.outer-desktop-skill {
   display: flex;
   flex-direction: column;
   grid-gap: 12px;

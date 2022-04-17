@@ -8,9 +8,11 @@ const outerDesktop = document.querySelector('.outer-desktop');
 
 const chevronDownFrameWork = document.querySelector('.chev-down-frame-work');
 const chevronRightFrameWork = document.querySelector('.chev-right-framework');
-const outerDesktopFrameWork = document.querySelector(
-  '.outer-desktop-framework'
-);
+const outerDesktopFrameWork = document.querySelector('.outer-desktop-framework');
+
+const chevronDownSkill = document.querySelector('.chev-down-skill');
+const chevronRightSkill = document.querySelector('.chev-right-skill');
+const outerDesktopSkill = document.querySelector('.outer-desktop-skill');
 
 
 const toggleSideBar = false;
@@ -34,7 +36,7 @@ function closeLinks() {
 
 navLinks.forEach((links) => links.addEventListener('click', closeLinks));
 
-//language and skills section
+// language and skills section
 
 chevronDown.style.display = 'none'
 const windowSize = window.outerWidth;
@@ -57,7 +59,7 @@ chevronDown.addEventListener('click', ()=>{
   chevronRight.style.display = 'block'
 })
 
-//framework
+// framework
 chevronDownFrameWork.style.display = 'none';
 
 chevronRightFrameWork.addEventListener('click', () => {
@@ -76,6 +78,27 @@ chevronDownFrameWork.addEventListener('click', () => {
   outerDesktopFrameWork.style.display = 'none';
   chevronDownFrameWork.style.display = 'none';
   chevronRightFrameWork.style.display = 'block';
+});
+
+// skills
+chevronDownSkill.style.display = 'none';
+
+chevronRightSkill.addEventListener('click', () => {
+  if (windowSize >= 992) {
+    outerDesktopSkill.style.display = 'flex';
+  } else {
+    outerDesktopSkill.style.display = 'block';
+  }
+
+  chevronRightSkill.style.hover = 'transform: rotateZ(90deg)';
+  chevronDownSkill.style.display = 'block';
+  chevronRightSkill.style.display = 'none';
+});
+
+chevronDownSkill.addEventListener('click', () => {
+  outerDesktopSkill.style.display = 'none';
+  chevronDownSkill.style.display = 'none';
+  chevronRightSkill.style.display = 'block';
 });
 
 

@@ -295,6 +295,7 @@ ul {
   justify-content: space-between;
   text-align: center;
   border-bottom: 1px solid #acd7c3;
+  margin-bottom: 10px;
 }
 
 .about-me i {
@@ -384,6 +385,14 @@ ul {
 }
 
 .outer-desktop-framework {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 12px;
+  width: fit-content;
+  display: none;
+}
+
+.outer-desktop-skill {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   grid-gap: 12px;
