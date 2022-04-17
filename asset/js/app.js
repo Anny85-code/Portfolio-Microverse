@@ -6,6 +6,12 @@ const chevronDown = document.querySelector('.chev-down');
 const chevronRight = document.querySelector('.right-arrow');
 const outerDesktop = document.querySelector('.outer-desktop');
 
+const chevronDownFrameWork = document.querySelector('.chev-down-frame-work');
+const chevronRightFrameWork = document.querySelector('.chev-right-framework');
+const outerDesktopFrameWork = document.querySelector(
+  '.outer-desktop-framework'
+);
+
 
 const toggleSideBar = false;
 const closeButton = false;
@@ -28,8 +34,10 @@ function closeLinks() {
 
 navLinks.forEach((links) => links.addEventListener('click', closeLinks));
 
+//language and skills section
+
 chevronDown.style.display = 'none'
-let windowSize = window.outerWidth;
+const windowSize = window.outerWidth;
 chevronRight.addEventListener('click', ()=> {
   
   if (windowSize >= 992) {
@@ -38,7 +46,6 @@ chevronRight.addEventListener('click', ()=> {
     outerDesktop.style.display = 'block';
   }
 
-  
   chevronRight.style.hover = 'transform: rotateZ(90deg)'
   chevronDown.style.display = 'block'
   chevronRight.style.display = 'none'
@@ -49,6 +56,27 @@ chevronDown.addEventListener('click', ()=>{
   chevronDown.style.display = 'none'
   chevronRight.style.display = 'block'
 })
+
+//framework
+chevronDownFrameWork.style.display = 'none';
+
+chevronRightFrameWork.addEventListener('click', () => {
+  if (windowSize >= 992) {
+    outerDesktopFrameWork.style.display = 'flex';
+  } else {
+    outerDesktopFrameWork.style.display = 'block';
+  }
+
+  chevronRightFrameWork.style.hover = 'transform: rotateZ(90deg)';
+  chevronDownFrameWork.style.display = 'block';
+  chevronRightFrameWork.style.display = 'none';
+});
+
+chevronDownFrameWork.addEventListener('click', () => {
+  outerDesktopFrameWork.style.display = 'none';
+  chevronDownFrameWork.style.display = 'none';
+  chevronRightFrameWork.style.display = 'block';
+});
 
 
 const works = [

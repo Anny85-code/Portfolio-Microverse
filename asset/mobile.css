@@ -335,6 +335,7 @@ li a {
   text-align: center;
   border-bottom: 1px solid #acd7c3;
   padding-right: 10px;
+  margin-bottom: 10px;
 }
 
 .language-framework p {
@@ -356,6 +357,8 @@ li a {
   flex: 1 1 auto;
   justify-content: space-between;
   text-align: center;
+  border-bottom: 1px solid #acd7c3;
+  margin-bottom: 10px;
 }
 
 .language p {
@@ -377,6 +380,14 @@ li a {
 }
 
 .outer-desktop {
+  display: flex;
+  flex-direction: column;
+  grid-gap: 12px;
+  width: 320px;
+  display: none;
+}
+
+.outer-desktop-framework {
   display: flex;
   flex-direction: column;
   grid-gap: 12px;

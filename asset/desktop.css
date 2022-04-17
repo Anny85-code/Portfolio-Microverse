@@ -321,6 +321,7 @@ ul {
   border-bottom: 1px solid #acd7c3;
   padding-right: 10px;
   width: 547px;
+  margin-bottom: 10px;
 }
 
 .language-framework p {
@@ -343,6 +344,8 @@ ul {
   justify-content: space-between;
   text-align: center;
   width: 547px;
+  border-bottom: 1px solid #acd7c3;
+  margin-bottom: 10px;
 }
 
 .language p {
@@ -368,7 +371,19 @@ ul {
   gap: 0;
 }
 
+.new-logo{
+  border-radius: 30%;
+}
+
 .outer-desktop {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 12px;
+  width: fit-content;
+  display: none;
+}
+
+.outer-desktop-framework {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   grid-gap: 12px;
