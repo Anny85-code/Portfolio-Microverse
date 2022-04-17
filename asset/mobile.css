@@ -377,6 +377,10 @@ li a {
 }
 
 .outer-desktop {
+  display: flex;
+  flex-direction: column;
+  grid-gap: 12px;
+  width: 320px;
   display: none;
 }
 

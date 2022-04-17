@@ -29,9 +29,16 @@ function closeLinks() {
 navLinks.forEach((links) => links.addEventListener('click', closeLinks));
 
 chevronDown.style.display = 'none'
-
+let windowSize = window.outerWidth;
 chevronRight.addEventListener('click', ()=> {
-  outerDesktop.style.display = 'flex'
+  
+  if (windowSize >= 992) {
+  outerDesktop.style.display = 'flex';
+  } else{
+    outerDesktop.style.display = 'block';
+  }
+
+  
   chevronRight.style.hover = 'transform: rotateZ(90deg)'
   chevronDown.style.display = 'block'
   chevronRight.style.display = 'none'
