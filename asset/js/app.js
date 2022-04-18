@@ -44,7 +44,7 @@ chevronRight.addEventListener('click', ()=> {
   
   if (windowSize >= 992) {
   outerDesktop.style.display = 'flex';
-  } else{
+  } else {
     outerDesktop.style.display = 'block';
   }
 
