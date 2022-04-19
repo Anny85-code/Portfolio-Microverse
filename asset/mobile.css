@@ -86,8 +86,10 @@ ul {
   display: flex;
   justify-content: space-between;
   padding-left: 24px;
+  padding-top: 5px;
   position: fixed;
-  top: 30px;
+  top: 25px;
+  background-color: #fff;
 }
 
 .uae {
