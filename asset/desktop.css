@@ -30,7 +30,7 @@ li a {
   cursor: pointer;
 }
 
-.uae{
+.uae {
   height: 100px;
   border-radius: 10px;
 }
@@ -104,10 +104,6 @@ body {
   margin: 0;
   background-color: #e5e5e5;
   font-family: 'Poppins', sans-serif;
-}
-
-html {
-  display: flex;
 }
 
 .headline {
@@ -201,7 +197,6 @@ ul {
 
 .work-section {
   margin-top: 150px;
-  margin-right: 12px;
 }
 
 .container {
@@ -375,7 +370,7 @@ ul {
   gap: 0;
 }
 
-.new-logo{
+.new-logo {
   border-radius: 30%;
 }
 

@@ -90,6 +90,7 @@ ul {
   position: fixed;
   top: 25px;
   background-color: #fff;
+  z-index: 1;
 }
 
 .uae {
