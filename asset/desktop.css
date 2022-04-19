@@ -46,9 +46,10 @@ li a {
 .nav-bar {
   display: flex;
   justify-content: space-between;
-  width: 98%;
+  width: 100%;
   position: fixed;
-  height: 40px;
+  height: 100px;
+  background-color: #fff;
 }
 
 .nav-menu {
@@ -103,7 +104,10 @@ body {
   margin: 0;
   background-color: #e5e5e5;
   font-family: 'Poppins', sans-serif;
-  width: 100vw;
+}
+
+html {
+  display: flex;
 }
 
 .headline {
