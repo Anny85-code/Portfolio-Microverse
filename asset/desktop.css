@@ -50,6 +50,8 @@ li a {
   position: fixed;
   height: 100px;
   background-color: #fff;
+  padding-top: 25px;
+  top: -1px;
 }
 
 .nav-menu {

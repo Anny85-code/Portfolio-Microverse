@@ -87,9 +87,9 @@ ul {
   display: flex;
   justify-content: space-between;
   padding-left: 24px;
-  padding-top: 5px;
+  padding-top: 25px;
   position: fixed;
-  top: 25px;
+  top: -1px;
   background-color: #fff;
   z-index: 1;
 }
