@@ -31,9 +31,46 @@ li a {
 }
 
 .uae {
-  height: 100px;
-  border-radius: 10px;
+  height: 90px;
+  border-radius: 50%;
 }
+
+/* logo */
+.logo {
+  padding: 0 12px;
+  margin-left: 45px;
+  margin-bottom: -20px;
+  margin-top: -20px;
+}
+
+.rotate-arround-logo {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  background: linear-gradient(to right, transparent 98%, rgba(28, 19, 185) 2%);
+  animation: spin 2s infinite linear;
+  margin-left: 30px;
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.logo-link {
+  margin-top: -1px;
+  padding: 20px;
+  position: absolute;
+  top: -0.1px;
+  margin-left: -70px;
+}
+
+/* end-of-logo */
 
 .desktop-nav:hover {
   transform: scale(1.1);
@@ -147,6 +184,28 @@ body {
   font-size: 16px;
   line-height: 24px;
   color: #7f8cff;
+}
+
+.bounce {
+  animation: bounce 2s infinite;
+}
+
+@keyframes bounce {
+  0%,
+  20%,
+  50%,
+  80%,
+  100% {
+    transform: translateY(0);
+  }
+
+  40% {
+    transform: translateY(-3px);
+  }
+
+  60% {
+    transform: translateY(-3px);
+  }
 }
 
 .connect {

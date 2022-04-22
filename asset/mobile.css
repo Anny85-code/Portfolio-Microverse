@@ -190,6 +190,28 @@ a {
   color: #7f8cff;
 }
 
+.bounce {
+  animation: bounce 2s infinite;
+}
+
+@keyframes bounce {
+  0%,
+  20%,
+  50%,
+  80%,
+  100% {
+    transform: translateY(0);
+  }
+
+  40% {
+    transform: translateY(-3px);
+  }
+
+  60% {
+    transform: translateY(-3px);
+  }
+}
+
 .connect {
   order: 2;
   margin-top: 10px;
