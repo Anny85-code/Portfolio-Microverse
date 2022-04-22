@@ -104,7 +104,7 @@ ul {
   padding: 0 12px;
   margin-left: 45px;
   margin-bottom: -20px;
-  margin-top: -10px;
+  margin-top: -20px;
 }
 
 .rotate-arround-logo {
@@ -127,7 +127,7 @@ ul {
 }
 
 .logo-link {
-  margin-top: 5px;
+  margin-top: -5px;
   padding: 20px;
   position: absolute;
   top: -0.1px;
