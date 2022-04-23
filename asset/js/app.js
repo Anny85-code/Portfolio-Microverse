@@ -120,7 +120,7 @@ const works = [
     linkSource: 'https://github.com/Anny85-code/covid19-tracker',
   },
   {
-    name: 'SeaFoodMenu-App',
+    name: 'SEAFOODMENU-APP',
     details: ['SeaFoodMenu-App', 'Front End Dev', '2021'],
     smallPageDescription:
       'This project is seafood menu app. That Retrieves data from API and used Involvement API for likes and comments. Test for data retrieved from API and for comments.',
@@ -168,7 +168,7 @@ const works = [
     linkSource: 'https://github.com/Anny85-code/AwesomeBook',
   },
   {
-    name: 'BookStore-Redux',
+    name: 'BOOKSTORE-REDUX',
     details: ['BookStore-Redux', 'Full Stack Dev', '2021'],
     smallPageDescription:
       'Bookstore-redux app is a simple bookstore built with react-redux to enable users add and remove book on a list.',
