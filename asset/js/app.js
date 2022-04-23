@@ -104,8 +104,40 @@ chevronDownSkill.addEventListener('click', () => {
 
 const works = [
   {
+    name: 'COVID19-TRACKER',
+    details: ['Covid19-Tracker', 'Front End Dev', '2021'],
+    smallPageDescription:
+      "This 'Covid19-Tracker' app is mobile application for a daily tracking of Covid 19 global data for each country.",
+    bigPageDescription:
+      "This Covid19-Tracker' is mobile application for a daily tracking of Covid 19 global data for each country. In this project I used the real COVID-19 data from Narrativa API.There are covid 19 active cases, recoveries and deaths across all the countries in the world.The application will allow users select country and with click on it's specific country and the data will display on other page. It is build using React and Redux libraries.",
+    imageMobile: 'asset/image/mobile/covid19-mobile.png',
+    imageDesktop: 'asset/image/desktop/covid19-desktop-desktop.png',
+    popupImageMobile: 'asset/image/mobile/covid19-mobile.png',
+    popupImageDesktop: 'asset/image/pop up/covid19-pop-up.png',
+    toolsPopup: ['Html', 'Css', 'React', 'Github', 'Ruby', 'Bootstrap'],
+    tools: ['Html', 'Css', 'React'],
+    linkLive: 'https://covid19-dataapp.herokuapp.com/',
+    linkSource: 'https://github.com/Anny85-code/covid19-tracker',
+  },
+  {
+    name: 'SeaFoodMenu-App',
+    details: ['SeaFoodMenu-App', 'Front End Dev', '2021'],
+    smallPageDescription:
+      'This project is seafood menu app. That Retrieves data from API and used Involvement API for likes and comments. Test for data retrieved from API and for comments.',
+    bigPageDescription:
+      'This project is seafood menu app. That Retrieves data from API and used Involvement API for likes and comments. Test for data retrieved from API and for comments. The application allows users to choose from varieties of recipes globally and be acquianted with the countries counsine and the app also gives directive on how these meals are prepared. Its highlights their origin, the reason behind each meal and why they are predominant in these locations. ',
+    imageMobile: 'asset/image/mobile/sea-food-menu-mobile.png',
+    imageDesktop: 'asset/image/desktop/sea-food-desktop.png',
+    popupImageMobile: 'asset/image/mobile/sea-food-menu-mobile.png',
+    popupImageDesktop: 'asset/image/pop up/sea-food-pop-up.png',
+    toolsPopup: ['Html', 'Css', 'JavaScript', 'github', 'Ruby', 'Bootstrap'],
+    tools: ['Html', 'Css', 'JavaScript'],
+    linkLive: 'https://anny85-code.github.io/seafoodmenu/dist/',
+    linkSource: 'https://github.com/Anny85-code/seafoodmenu',
+  },
+  {
     name: 'TO-DO-LIST',
-    details: ['ToDo-List', 'Back End Dev', '2015'],
+    details: ['ToDo-List', 'Front End Dev', '2021'],
     smallPageDescription:
       "This 'To-do-list' app is a simple web application that displays a list of task and allows you to add and remove task from that list.",
     bigPageDescription:
@@ -114,22 +146,22 @@ const works = [
     imageDesktop: 'asset/image/desktop/toDoList-desktop.png',
     popupImageMobile: 'asset/image/mobile/toDoList-mobile.png',
     popupImageDesktop: 'asset/image/pop up/toDoList-popup.png',
-    toolsPopup: ['html', 'css', 'javaScript', 'github', 'Ruby', 'Bootstrap'],
-    tools: ['html', 'css', 'javaScript'],
+    toolsPopup: ['Html', 'Css', 'JavaScript', 'Github', 'Ruby', 'Bootstrap'],
+    tools: ['Html', 'Css', 'JavaScript'],
     linkLive: 'https://anny85-code.github.io/to-do-list/dist',
     linkSource: 'https://github.com/Anny85-code/to-do-list',
   },
   {
     name: 'AWESOME BOOK',
-    details: ['Awesome Book', 'Full Stack Dev', '2015'],
+    details: ['Awesome Book', 'Full Stack Dev', '2021'],
     smallPageDescription:
       'This project is a basic website that allows users to add/remove books from a list.',
     bigPageDescription:
       'This project is a basic website that allows users to add/remove books from a list. The main objective of this app is to understand how to use JavaScript objects and arrays dynamically and to modify the DOM and add basic events. This will follow professional guidelines in responsive design. all features are design prfessionally to give a feel of software engineering. this is powered by three different tools namely; HTML, CSS and JavaScript. The application is for personal and industrial purposes. It is a simple website that displays a list of books and allows you to add and remove books from that list. By building this application, you will learn how to manage data using JavaScript. Thanks to that your website will be more interactive. built with modern JavaScript and uses SPA technology',
     imageMobile: 'asset/image/mobile/awesomeBook-mobile.png',
     imageDesktop: 'asset/image/desktop/awesomeBook-desktop.png',
-    toolsPopup: ['html', 'Ruby on rails', 'css', 'javaScript'],
-    tools: ['html', 'css', 'javaScript'],
+    toolsPopup: ['Html', 'Ruby on rails', 'Css', 'JavaScript'],
+    tools: ['Html', 'Css', 'JavaScript'],
     popupImageMobile: 'asset/image/mobile/awesomeBook-mobile.png',
     popupImageDesktop: 'asset/image/pop up/awesomeBook-pop-up.png',
     linkLive: 'https://anny85-code.github.io/AwesomeBook/',
@@ -137,7 +169,7 @@ const works = [
   },
   {
     name: 'C.C WEBSITE',
-    details: ['C Website', 'Full Stack Dev', '2015'],
+    details: ['C Website', 'Full Stack Dev', '2021'],
     smallPageDescription:
       'This a conference website that allows users to navigate and gets the list and book for a conference program. it is built with JavaScript.',
     bigPageDescription:
@@ -153,7 +185,7 @@ const works = [
   },
   {
     name: 'LEADERBOARD',
-    details: ['Leaderboard', 'Lead developer', '2018'],
+    details: ['Leaderboard', 'Front End Dev', '2021'],
     smallPageDescription:
       '"leaderboard" is a simple web application that displays a table of names and scores and allows you to add and remove names and scores from that table.',
     bigPageDescription:
