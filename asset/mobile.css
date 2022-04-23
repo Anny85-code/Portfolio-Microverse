@@ -346,7 +346,7 @@ li a {
 
 .inner-item {
   display: flex;
-  column-gap: 60px;
+  column-gap: 35px;
 }
 
 .skill a {
