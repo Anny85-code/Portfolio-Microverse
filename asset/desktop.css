@@ -89,6 +89,7 @@ li a {
   background-color: #fff;
   padding-top: 25px;
   top: -1px;
+  box-shadow: 4px 4px 10px rgb(0 0 0 / 10%);
 }
 
 .nav-menu {
