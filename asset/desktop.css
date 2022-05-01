@@ -90,6 +90,7 @@ li a {
   padding-top: 25px;
   top: -1px;
   box-shadow: 4px 4px 10px rgb(0 0 0 / 10%);
+  z-index: 1;
 }
 
 .nav-menu {
@@ -621,6 +622,7 @@ button:hover {
   flex-direction: column;
   align-items: center;
   box-sizing: border-box;
+  margin-bottom: 80px;
 }
 
 .form-control {
@@ -895,4 +897,37 @@ button:hover {
   background-color: #fff;
   cursor: pointer;
   transform: scale(1.2);
+}
+
+footer{
+  background-color: #3d4ee4;
+  align-items: center;
+  height: 110px;
+  width: 100%;
+  position: fixed;
+  bottom: 0;
+  text-align: center;
+  padding: 5px 0;
+  font-style: italic;
+  font-size: 12px;
+  color: rgb(35, 21, 99);
+}
+
+.footer-ul {
+  margin: 20px;
+  justify-content: space-around;
+  display: flex;
+  flex-direction: row;
+  font-family:'Poppins', sans-serif;
+}
+
+.footer-ul-one {
+  display: flex;
+  flex-direction: column;
+  margin: 5px;
+  font-family:'Poppins', sans-serif;
+}
+
+.footer-name {
+  font-weight: bold;
 }

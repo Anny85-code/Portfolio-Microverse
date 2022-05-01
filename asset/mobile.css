@@ -589,6 +589,7 @@ button:hover {
   margin-right: -30px;
   display: flex;
   flex-direction: column;
+  margin-bottom: 20px;
 }
 
 .form h1 {
@@ -868,4 +869,37 @@ button:hover {
 
 #desktop-pop {
   display: none;
+}
+
+footer{
+  background-color: #3d4ee4;
+  align-items: center;
+  height: 110px;
+  width: 100%;
+  position: fixed;
+  bottom: 0;
+  text-align: center;
+  padding: 5px 0;
+  font-style: italic;
+  font-size: 9px;
+  color: rgb(35, 21, 99);
+}
+
+.footer-ul {
+  margin: 20px;
+  justify-content: space-around;
+  display: flex;
+  flex-direction: row;
+  font-family:'Poppins', sans-serif;
+}
+
+.footer-ul-one {
+  display: flex;
+  flex-direction: column;
+  margin: 5px;
+  font-family:'Poppins', sans-serif;
+}
+
+.footer-name {
+  font-weight: bold;
 }
