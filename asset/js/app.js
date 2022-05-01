@@ -347,3 +347,13 @@ for (let j = 0; j < seeProjectButtons.length; j += 1) {
     renderPopUp(seeProjectButtons[j].getAttribute('index-project'));
   });
 }
+
+const footer = () => {
+  const footer = document.querySelector('.footer-li');
+  const currentYear = new Date().getFullYear();
+  footer.innerHTML = `
+            <span>&#169;${currentYear}</span><span class="footer-name">Anny</span> Portfolio | All Rights Reserved.
+            <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>`;
+};
+
+footer();
