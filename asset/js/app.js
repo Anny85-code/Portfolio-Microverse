@@ -115,7 +115,7 @@ const works = [
     popupImageMobile: 'asset/image/mobile/budget-mobile.png',
     popupImageDesktop: 'asset/image/pop up/pop-up-desktop.png',
     toolsPopup: ['Html', 'Css', 'Rails', 'Github', 'Ruby', 'Bootstrap'],
-    tools: ['Html', 'Css', 'Ruby on Rails'],
+    tools: ['Html', 'Css', 'Rails'],
     linkLive: 'https://salty-stream-24790.herokuapp.com/',
     linkSource: 'https://github.com/Anny85-code/budget-app',
   },
