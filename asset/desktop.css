@@ -899,7 +899,7 @@ button:hover {
   transform: scale(1.2);
 }
 
-footer{
+footer {
   background-color: #3d4ee4;
   align-items: center;
   height: 70px;
@@ -917,13 +917,13 @@ footer{
   justify-content: space-around;
   display: flex;
   flex-direction: row;
-  font-family:'Poppins', sans-serif;
+  font-family: 'Poppins', sans-serif;
 }
 
 .footer-ul-one {
   display: flex;
   flex-direction: column;
-  font-family:'Poppins', sans-serif;
+  font-family: 'Poppins', sans-serif;
 }
 
 .footer-name {

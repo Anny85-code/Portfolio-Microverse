@@ -104,6 +104,22 @@ chevronDownSkill.addEventListener('click', () => {
 
 const works = [
   {
+    name: 'BUDGET-APP',
+    details: ['Budget-app', 'Back End Dev', '2021'],
+    smallPageDescription:
+      'The Budget app is a mobile web application where you can manage your budget: you have a list of transactions associated with a category, so that you can see how much money you spent and on what.',
+    bigPageDescription:
+      "The Budget app is a mobile web application where you can manage your budget: you have a list of transactions associated with a category, so that you can see how much money you spent and on what..There is global economic crisis so it is imperative to track our budget and daily expenses.The application will allow users select category and with click on it's specific category and the data will display on other page. Users can also add transactions that is linked to a paricular category. It is build using Ruby on Rails.",
+    imageMobile: 'asset/image/mobile/budget-mobile.png',
+    imageDesktop: 'asset/image/desktop/budget-desktop.png',
+    popupImageMobile: 'asset/image/mobile/budget-mobile.png',
+    popupImageDesktop: 'asset/image/pop up/pop-up-desktop.png',
+    toolsPopup: ['Html', 'Css', 'Rails', 'Github', 'Ruby', 'Bootstrap'],
+    tools: ['Html', 'Css', 'Ruby on Rails'],
+    linkLive: 'https://salty-stream-24790.herokuapp.com/',
+    linkSource: 'https://github.com/Anny85-code/budget-app',
+  },
+  {
     name: 'COVID19-TRACKER',
     details: ['Covid19-Tracker', 'Front End Dev', '2021'],
     smallPageDescription:
