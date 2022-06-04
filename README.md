@@ -12,7 +12,7 @@ This is my portfolio web site, that showcases my profile and projects, it is one
 
 ## Live Demo
 
-# You can check it out at https://anny85-code.github.io/Portfolio-Microverse/
+You can check it out at https://anny85-code.github.io/Portfolio-Microverse/
 
 👤 **Author**
 
